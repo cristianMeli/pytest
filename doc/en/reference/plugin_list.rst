@@ -11,50 +11,53 @@ automatically. Packages classified as inactive are excluded.
    creating a PDF, because otherwise the table gets far too wide for the
    page.
 
-This list contains 943 plugins.
+This list contains 983 plugins.
 
 .. only:: not latex
 
    ===============================================  ========================================================================================================================================================================  ==============  =====================  ================================================
    name                                             summary                                                                                                                                                                   last release    status                 requires
    ===============================================  ========================================================================================================================================================================  ==============  =====================  ================================================
-   :pypi:`pytest-accept`                            A pytest-plugin for updating doctest outputs                                                                                                                              Sep 06, 2021    N/A                    pytest (>=6,<7)
-   :pypi:`pytest-adaptavist`                        pytest plugin for generating test execution results within Jira Test Management (tm4j)                                                                                    Aug 24, 2021    N/A                    pytest (>=3.4.1)
+   :pypi:`pytest-accept`                            A pytest-plugin for updating doctest outputs                                                                                                                              Jan 07, 2022    N/A                    pytest (>=6,<8)
+   :pypi:`pytest-adaptavist`                        pytest plugin for generating test execution results within Jira Test Management (tm4j)                                                                                    Nov 30, 2021    N/A                    pytest (>=5.4.0)
    :pypi:`pytest-addons-test`                       用于测试pytest的插件                                                                                                                                                      Aug 02, 2021    N/A                    pytest (>=6.2.4,<7.0.0)
    :pypi:`pytest-adf`                               Pytest plugin for writing Azure Data Factory integration tests                                                                                                            May 10, 2021    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-adf-azure-identity`                Pytest plugin for writing Azure Data Factory integration tests                                                                                                            Mar 06, 2021    4 - Beta               pytest (>=3.5.0)
+   :pypi:`pytest-agent`                             Service that exposes a REST API that can be used to interract remotely with Pytest. It is shipped with a dashboard that enables running tests in a more convenient way.   Nov 25, 2021    N/A                    N/A
    :pypi:`pytest-aggreport`                         pytest plugin for pytest-repeat that generate aggregate report of the same test cases with additional statistics details.                                                 Mar 07, 2021    4 - Beta               pytest (>=6.2.2)
    :pypi:`pytest-aio`                               Pytest plugin for testing async python code                                                                                                                               Oct 20, 2021    4 - Beta               pytest
    :pypi:`pytest-aiofiles`                          pytest fixtures for writing aiofiles tests with pyfakefs                                                                                                                  May 14, 2017    5 - Production/Stable  N/A
    :pypi:`pytest-aiohttp`                           pytest plugin for aiohttp support                                                                                                                                         Dec 05, 2017    N/A                    pytest
    :pypi:`pytest-aiohttp-client`                    Pytest \`client\` fixture for the Aiohttp                                                                                                                                 Nov 01, 2020    N/A                    pytest (>=6)
+   :pypi:`pytest-aiomoto`                           pytest-aiomoto                                                                                                                                                            Dec 10, 2021    N/A                    pytest (>=6.2.5,<7.0.0)
    :pypi:`pytest-aioresponses`                      py.test integration for aioresponses                                                                                                                                      Jul 29, 2021    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-aioworkers`                        A plugin to test aioworkers project with pytest                                                                                                                           Dec 04, 2019    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-airflow`                           pytest support for airflow.                                                                                                                                               Apr 03, 2019    3 - Alpha              pytest (>=4.4.0)
-   :pypi:`pytest-alembic`                           A pytest plugin for verifying alembic migrations.                                                                                                                         Sep 03, 2021    N/A                    pytest (>=1.0)
+   :pypi:`pytest-airflow-utils`                                                                                                                                                                                               Nov 15, 2021    N/A                    N/A
+   :pypi:`pytest-alembic`                           A pytest plugin for verifying alembic migrations.                                                                                                                         Dec 21, 2021    N/A                    pytest (>=1.0)
    :pypi:`pytest-allclose`                          Pytest fixture extending Numpy's allclose function                                                                                                                        Jul 30, 2019    5 - Production/Stable  pytest
    :pypi:`pytest-allure-adaptor`                    Plugin for py.test to generate allure xml reports                                                                                                                         Jan 10, 2018    N/A                    pytest (>=2.7.3)
    :pypi:`pytest-allure-adaptor2`                   Plugin for py.test to generate allure xml reports                                                                                                                         Oct 14, 2020    N/A                    pytest (>=2.7.3)
    :pypi:`pytest-allure-dsl`                        pytest plugin to test case doc string dls instructions                                                                                                                    Oct 25, 2020    4 - Beta               pytest
    :pypi:`pytest-allure-spec-coverage`              The pytest plugin aimed to display test coverage of the specs(requirements) in Allure                                                                                     Oct 26, 2021    N/A                    pytest
-   :pypi:`pytest-alphamoon`                         Static code checks used at Alphamoon                                                                                                                                      Oct 21, 2021    4 - Beta               pytest (>=3.5.0)
+   :pypi:`pytest-alphamoon`                         Static code checks used at Alphamoon                                                                                                                                      Dec 30, 2021    5 - Production/Stable  pytest (>=3.5.0)
    :pypi:`pytest-android`                           This fixture provides a configured "driver" for Android Automated Testing, using uiautomator2.                                                                            Feb 21, 2019    3 - Alpha              pytest
    :pypi:`pytest-anki`                              A pytest plugin for testing Anki add-ons                                                                                                                                  Oct 14, 2021    4 - Beta               pytest (>=3.5.0)
-   :pypi:`pytest-annotate`                          pytest-annotate: Generate PyAnnotate annotations from your pytest tests.                                                                                                  Aug 23, 2019    3 - Alpha              pytest (<6.0.0,>=3.2.0)
+   :pypi:`pytest-annotate`                          pytest-annotate: Generate PyAnnotate annotations from your pytest tests.                                                                                                  Nov 29, 2021    3 - Alpha              pytest (<7.0.0,>=3.2.0)
    :pypi:`pytest-ansible`                           Plugin for py.test to simplify calling ansible modules from tests or fixtures                                                                                             May 25, 2021    5 - Production/Stable  N/A
    :pypi:`pytest-ansible-playbook`                  Pytest fixture which runs given ansible playbook file.                                                                                                                    Mar 08, 2019    4 - Beta               N/A
    :pypi:`pytest-ansible-playbook-runner`           Pytest fixture which runs given ansible playbook file.                                                                                                                    Dec 02, 2020    4 - Beta               pytest (>=3.1.0)
    :pypi:`pytest-antilru`                           Bust functools.lru_cache when running pytest to avoid test pollution                                                                                                      Apr 11, 2019    5 - Production/Stable  pytest
    :pypi:`pytest-anyio`                             The pytest anyio plugin is built into anyio. You don't need this package.                                                                                                 Jun 29, 2021    N/A                    pytest
    :pypi:`pytest-anything`                          Pytest fixtures to assert anything and something                                                                                                                          Feb 18, 2021    N/A                    N/A
-   :pypi:`pytest-aoc`                               Downloads puzzle inputs for Advent of Code and synthesizes PyTest fixtures                                                                                                Dec 01, 2020    N/A                    pytest ; extra == 'dev'
+   :pypi:`pytest-aoc`                               Downloads puzzle inputs for Advent of Code and synthesizes PyTest fixtures                                                                                                Nov 23, 2021    N/A                    pytest ; extra == 'test'
    :pypi:`pytest-api`                               PyTest-API Python Web Framework built for testing purposes.                                                                                                               May 04, 2021    N/A                    N/A
    :pypi:`pytest-apistellar`                        apistellar plugin for pytest.                                                                                                                                             Jun 18, 2019    N/A                    N/A
    :pypi:`pytest-appengine`                         AppEngine integration that works well with pytest-django                                                                                                                  Feb 27, 2017    N/A                    N/A
    :pypi:`pytest-appium`                            Pytest plugin for appium                                                                                                                                                  Dec 05, 2019    N/A                    N/A
    :pypi:`pytest-approvaltests`                     A plugin to use approvaltests with pytest                                                                                                                                 Feb 07, 2021    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-argus`                             pyest results colection plugin                                                                                                                                            Jun 24, 2021    5 - Production/Stable  pytest (>=6.2.4)
-   :pypi:`pytest-arraydiff`                         pytest plugin to help with comparing array output from tests                                                                                                              Dec 06, 2018    4 - Beta               pytest
+   :pypi:`pytest-arraydiff`                         pytest plugin to help with comparing array output from tests                                                                                                              Jan 13, 2022    4 - Beta               pytest (>=4.6)
    :pypi:`pytest-asgi-server`                       Convenient ASGI client/server fixtures for Pytest                                                                                                                         Dec 12, 2020    N/A                    pytest (>=5.4.1)
    :pypi:`pytest-asptest`                           test Answer Set Programming programs                                                                                                                                      Apr 28, 2018    4 - Beta               N/A
    :pypi:`pytest-assertutil`                        pytest-assertutil                                                                                                                                                         May 10, 2019    N/A                    N/A
@@ -62,10 +65,10 @@ This list contains 943 plugins.
    :pypi:`pytest-assume`                            A pytest plugin that allows multiple failures per test                                                                                                                    Jun 24, 2021    N/A                    pytest (>=2.7)
    :pypi:`pytest-ast-back-to-python`                A plugin for pytest devs to view how assertion rewriting recodes the AST                                                                                                  Sep 29, 2019    4 - Beta               N/A
    :pypi:`pytest-astropy`                           Meta-package containing dependencies for testing                                                                                                                          Sep 21, 2021    5 - Production/Stable  pytest (>=4.6)
-   :pypi:`pytest-astropy-header`                    pytest plugin to add diagnostic information to the header of the test output                                                                                              Dec 18, 2019    3 - Alpha              pytest (>=2.8)
+   :pypi:`pytest-astropy-header`                    pytest plugin to add diagnostic information to the header of the test output                                                                                              Dec 27, 2021    3 - Alpha              pytest (>=4.6)
    :pypi:`pytest-ast-transformer`                                                                                                                                                                                             May 04, 2019    3 - Alpha              pytest
-   :pypi:`pytest-asyncio`                           Pytest support for asyncio.                                                                                                                                               Oct 15, 2021    4 - Beta               pytest (>=5.4.0)
-   :pypi:`pytest-asyncio-cooperative`               Run all your asynchronous tests cooperatively.                                                                                                                            Oct 12, 2021    4 - Beta               N/A
+   :pypi:`pytest-asyncio`                           Pytest support for asyncio                                                                                                                                                Jan 13, 2022    4 - Beta               pytest (>=5.4.0)
+   :pypi:`pytest-asyncio-cooperative`               Run all your asynchronous tests cooperatively.                                                                                                                            Jan 03, 2022    N/A                    N/A
    :pypi:`pytest-asyncio-network-simulator`         pytest-asyncio-network-simulator: Plugin for pytest for simulator the network in tests                                                                                    Jul 31, 2018    3 - Alpha              pytest (<3.7.0,>=3.3.2)
    :pypi:`pytest-async-mongodb`                     pytest plugin for async MongoDB                                                                                                                                           Oct 18, 2017    5 - Production/Stable  pytest (>=2.5.2)
    :pypi:`pytest-async-sqlalchemy`                  Database testing fixtures using the SQLAlchemy asyncio API                                                                                                                Oct 07, 2021    4 - Beta               pytest (>=6.0.0)
@@ -98,9 +101,9 @@ This list contains 943 plugins.
    :pypi:`pytest-black`                             A pytest plugin to enable format checking with black                                                                                                                      Oct 05, 2020    4 - Beta               N/A
    :pypi:`pytest-black-multipy`                     Allow '--black' on older Pythons                                                                                                                                          Jan 14, 2021    5 - Production/Stable  pytest (!=3.7.3,>=3.5) ; extra == 'testing'
    :pypi:`pytest-blame`                             A pytest plugin helps developers to debug by providing useful commits history.                                                                                            May 04, 2019    N/A                    pytest (>=4.4.0)
-   :pypi:`pytest-blender`                           Blender Pytest plugin.                                                                                                                                                    Oct 26, 2021    N/A                    pytest (==6.2.5) ; extra == 'dev'
+   :pypi:`pytest-blender`                           Blender Pytest plugin.                                                                                                                                                    Oct 29, 2021    N/A                    pytest (==6.2.5) ; extra == 'dev'
    :pypi:`pytest-blink1`                            Pytest plugin to emit notifications via the Blink(1) RGB LED                                                                                                              Jan 07, 2018    4 - Beta               N/A
-   :pypi:`pytest-blockage`                          Disable network requests during a test run.                                                                                                                               Feb 13, 2019    N/A                    pytest
+   :pypi:`pytest-blockage`                          Disable network requests during a test run.                                                                                                                               Dec 21, 2021    N/A                    pytest
    :pypi:`pytest-blocker`                           pytest plugin to mark a test as blocker and skip all other tests                                                                                                          Sep 07, 2015    4 - Beta               N/A
    :pypi:`pytest-board`                             Local continuous test runner with pytest and watchdog.                                                                                                                    Jan 20, 2019    N/A                    N/A
    :pypi:`pytest-bpdb`                              A py.test plug-in to enable drop to bpdb debugger on test failure.                                                                                                        Jan 19, 2015    2 - Pre-Alpha          N/A
@@ -116,15 +119,17 @@ This list contains 943 plugins.
    :pypi:`pytest-bugzilla`                          py.test bugzilla integration plugin                                                                                                                                       May 05, 2010    4 - Beta               N/A
    :pypi:`pytest-bugzilla-notifier`                 A plugin that allows you to execute create, update, and read information from BugZilla bugs                                                                               Jun 15, 2018    4 - Beta               pytest (>=2.9.2)
    :pypi:`pytest-buildkite`                         Plugin for pytest that automatically publishes coverage and pytest report annotations to Buildkite.                                                                       Jul 13, 2019    4 - Beta               pytest (>=3.5.0)
+   :pypi:`pytest-builtin-types`                                                                                                                                                                                               Nov 17, 2021    N/A                    pytest
    :pypi:`pytest-bwrap`                             Run your tests in Bubblewrap sandboxes                                                                                                                                    Oct 26, 2018    3 - Alpha              N/A
    :pypi:`pytest-cache`                             pytest plugin with mechanisms for caching across test runs                                                                                                                Jun 04, 2013    3 - Alpha              N/A
+   :pypi:`pytest-cache-assert`                      Cache assertion data to simplify regression testing of complex serializable data                                                                                          Nov 03, 2021    4 - Beta               pytest (>=5)
    :pypi:`pytest-cagoule`                           Pytest plugin to only run tests affected by changes                                                                                                                       Jan 01, 2020    3 - Alpha              N/A
    :pypi:`pytest-camel-collect`                     Enable CamelCase-aware pytest class collection                                                                                                                            Aug 02, 2020    N/A                    pytest (>=2.9)
    :pypi:`pytest-canonical-data`                    A plugin which allows to compare results with canonical results, based on previous runs                                                                                   May 08, 2020    2 - Pre-Alpha          pytest (>=3.5.0)
    :pypi:`pytest-caprng`                            A plugin that replays pRNG state on failure.                                                                                                                              May 02, 2018    4 - Beta               N/A
    :pypi:`pytest-capture-deprecatedwarnings`        pytest plugin to capture all deprecatedwarnings and put them in one file                                                                                                  Apr 30, 2019    N/A                    N/A
    :pypi:`pytest-capturelogs`                       A sample Python project                                                                                                                                                   Sep 11, 2021    3 - Alpha              N/A
-   :pypi:`pytest-cases`                             Separate test code from test cases in pytest.                                                                                                                             Sep 17, 2021    5 - Production/Stable  N/A
+   :pypi:`pytest-cases`                             Separate test code from test cases in pytest.                                                                                                                             Jan 07, 2022    5 - Production/Stable  N/A
    :pypi:`pytest-cassandra`                         Cassandra CCM Test Fixtures for pytest                                                                                                                                    Nov 04, 2017    1 - Planning           N/A
    :pypi:`pytest-catchlog`                          py.test plugin to catch log messages. This is a fork of pytest-capturelog.                                                                                                Jan 24, 2016    4 - Beta               pytest (>=2.6)
    :pypi:`pytest-catch-server`                      Pytest plugin with server for catching HTTP requests.                                                                                                                     Dec 12, 2019    5 - Production/Stable  N/A
@@ -143,11 +148,11 @@ This list contains 943 plugins.
    :pypi:`pytest-clarity`                           A plugin providing an alternative, colourful diff output for failing assertions.                                                                                          Jun 11, 2021    N/A                    N/A
    :pypi:`pytest-cldf`                              Easy quality control for CLDF datasets using pytest                                                                                                                       May 06, 2019    N/A                    N/A
    :pypi:`pytest-click`                             Py.test plugin for Click                                                                                                                                                  Aug 29, 2020    5 - Production/Stable  pytest (>=5.0)
-   :pypi:`pytest-clld`                                                                                                                                                                                                        Aug 16, 2021    N/A                    pytest (>=3.6)
+   :pypi:`pytest-clld`                                                                                                                                                                                                        Nov 29, 2021    N/A                    pytest (>=3.6)
    :pypi:`pytest-cloud`                             Distributed tests planner plugin for pytest testing framework.                                                                                                            Oct 05, 2020    6 - Mature             N/A
    :pypi:`pytest-cloudflare-worker`                 pytest plugin for testing cloudflare workers                                                                                                                              Mar 30, 2021    4 - Beta               pytest (>=6.0.0)
    :pypi:`pytest-cobra`                             PyTest plugin for testing Smart Contracts for Ethereum blockchain.                                                                                                        Jun 29, 2019    3 - Alpha              pytest (<4.0.0,>=3.7.1)
-   :pypi:`pytest-codeblocks`                        Test code blocks in your READMEs                                                                                                                                          Oct 13, 2021    4 - Beta               pytest (>=6)
+   :pypi:`pytest-codeblocks`                        Test code blocks in your READMEs                                                                                                                                          Dec 21, 2021    4 - Beta               pytest (>=6)
    :pypi:`pytest-codecheckers`                      pytest plugin to add source code sanity checks (pep8 and friends)                                                                                                         Feb 13, 2010    N/A                    N/A
    :pypi:`pytest-codecov`                           Pytest plugin for uploading pytest-cov results to codecov.io                                                                                                              Oct 27, 2021    4 - Beta               pytest (>=4.6.0)
    :pypi:`pytest-codegen`                           Automatically create pytest test signatures                                                                                                                               Aug 23, 2020    2 - Pre-Alpha          N/A
@@ -160,8 +165,9 @@ This list contains 943 plugins.
    :pypi:`pytest-concurrent`                        Concurrently execute test cases with multithread, multiprocess and gevent                                                                                                 Jan 12, 2019    4 - Beta               pytest (>=3.1.1)
    :pypi:`pytest-config`                            Base configurations and utilities for developing    your Python project test suite with pytest.                                                                           Nov 07, 2014    5 - Production/Stable  N/A
    :pypi:`pytest-confluence-report`                 Package stands for pytest plugin to upload results into Confluence page.                                                                                                  Nov 06, 2020    N/A                    N/A
-   :pypi:`pytest-console-scripts`                   Pytest plugin for testing console scripts                                                                                                                                 Sep 28, 2021    4 - Beta               N/A
+   :pypi:`pytest-console-scripts`                   Pytest plugin for testing console scripts                                                                                                                                 Jan 06, 2022    4 - Beta               N/A
    :pypi:`pytest-consul`                            pytest plugin with fixtures for testing consul aware apps                                                                                                                 Nov 24, 2018    3 - Alpha              pytest
+   :pypi:`pytest-container`                         Pytest fixtures for writing container based tests                                                                                                                         Nov 19, 2021    3 - Alpha              pytest (>=3.10)
    :pypi:`pytest-contextfixture`                    Define pytest fixtures as context managers.                                                                                                                               Mar 12, 2013    4 - Beta               N/A
    :pypi:`pytest-contexts`                          A plugin to run tests written with the Contexts framework using pytest                                                                                                    May 19, 2021    4 - Beta               N/A
    :pypi:`pytest-cookies`                           The pytest plugin for your Cookiecutter templates. 🍪                                                                                                                     May 24, 2021    5 - Production/Stable  pytest (>=3.3.0)
@@ -172,7 +178,7 @@ This list contains 943 plugins.
    :pypi:`pytest-coverage`                                                                                                                                                                                                    Jun 17, 2015    N/A                    N/A
    :pypi:`pytest-coverage-context`                  Coverage dynamic context support for PyTest, including sub-processes                                                                                                      Jan 04, 2021    4 - Beta               pytest (>=6.1.0)
    :pypi:`pytest-cov-exclude`                       Pytest plugin for excluding tests based on coverage data                                                                                                                  Apr 29, 2016    4 - Beta               pytest (>=2.8.0,<2.9.0); extra == 'dev'
-   :pypi:`pytest-cpp`                               Use pytest's runner to discover and execute C++ tests                                                                                                                     Jun 04, 2021    5 - Production/Stable  pytest (!=5.4.0,!=5.4.1)
+   :pypi:`pytest-cpp`                               Use pytest's runner to discover and execute C++ tests                                                                                                                     Dec 06, 2021    5 - Production/Stable  pytest (!=5.4.0,!=5.4.1)
    :pypi:`pytest-cram`                              Run cram tests with pytest.                                                                                                                                               Aug 08, 2020    N/A                    N/A
    :pypi:`pytest-crate`                             Manages CrateDB instances during your integration tests                                                                                                                   May 28, 2019    3 - Alpha              pytest (>=4.0)
    :pypi:`pytest-cricri`                            A Cricri plugin for pytest.                                                                                                                                               Jan 27, 2018    N/A                    pytest
@@ -202,7 +208,8 @@ This list contains 943 plugins.
    :pypi:`pytest-datatest`                          A pytest plugin for test driven data-wrangling (this is the development version of datatest's pytest integration).                                                        Oct 15, 2020    4 - Beta               pytest (>=3.3)
    :pypi:`pytest-db`                                Session scope fixture "db" for mysql query or change                                                                                                                      Dec 04, 2019    N/A                    N/A
    :pypi:`pytest-dbfixtures`                        Databases fixtures plugin for py.test.                                                                                                                                    Dec 07, 2016    4 - Beta               N/A
-   :pypi:`pytest-dbt-adapter`                       A pytest plugin for testing dbt adapter plugins                                                                                                                           Jun 07, 2021    N/A                    pytest (<7,>=6)
+   :pypi:`pytest-db-plugin`                                                                                                                                                                                                   Nov 27, 2021    N/A                    pytest (>=5.0)
+   :pypi:`pytest-dbt-adapter`                       A pytest plugin for testing dbt adapter plugins                                                                                                                           Nov 24, 2021    N/A                    pytest (<7,>=6)
    :pypi:`pytest-dbus-notification`                 D-BUS notifications for pytest results.                                                                                                                                   Mar 05, 2014    5 - Production/Stable  N/A
    :pypi:`pytest-deadfixtures`                      A simple plugin to list unused fixtures in pytest                                                                                                                         Jul 23, 2020    5 - Production/Stable  N/A
    :pypi:`pytest-deepcov`                           deepcov                                                                                                                                                                   Mar 30, 2021    N/A                    N/A
@@ -211,7 +218,7 @@ This list contains 943 plugins.
    :pypi:`pytest-dependency`                        Manage dependencies of tests                                                                                                                                              Feb 14, 2020    4 - Beta               N/A
    :pypi:`pytest-depends`                           Tests that depend on other tests                                                                                                                                          Apr 05, 2020    5 - Production/Stable  pytest (>=3)
    :pypi:`pytest-deprecate`                         Mark tests as testing a deprecated feature with a warning note.                                                                                                           Jul 01, 2019    N/A                    N/A
-   :pypi:`pytest-describe`                          Describe-style plugin for pytest                                                                                                                                          Aug 18, 2021    4 - Beta               pytest (>=4.0.0)
+   :pypi:`pytest-describe`                          Describe-style plugin for pytest                                                                                                                                          Nov 13, 2021    4 - Beta               pytest (>=4.0.0)
    :pypi:`pytest-describe-it`                       plugin for rich text descriptions                                                                                                                                         Jul 19, 2019    4 - Beta               pytest
    :pypi:`pytest-devpi-server`                      DevPI server fixture for py.test                                                                                                                                          May 28, 2019    5 - Production/Stable  pytest
    :pypi:`pytest-diamond`                           pytest plugin for diamond                                                                                                                                                 Aug 31, 2015    4 - Beta               N/A
@@ -221,7 +228,7 @@ This list contains 943 plugins.
    :pypi:`pytest-disable`                           pytest plugin to disable a test and skip it from testrun                                                                                                                  Sep 10, 2015    4 - Beta               N/A
    :pypi:`pytest-disable-plugin`                    Disable plugins per test                                                                                                                                                  Feb 28, 2019    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-discord`                           A pytest plugin to notify test results to a Discord channel.                                                                                                              Mar 20, 2021    3 - Alpha              pytest (!=6.0.0,<7,>=3.3.2)
-   :pypi:`pytest-django`                            A Django plugin for pytest.                                                                                                                                               Jun 06, 2021    5 - Production/Stable  pytest (>=5.4.0)
+   :pypi:`pytest-django`                            A Django plugin for pytest.                                                                                                                                               Dec 07, 2021    5 - Production/Stable  pytest (>=5.4.0)
    :pypi:`pytest-django-ahead`                      A Django plugin for pytest.                                                                                                                                               Oct 27, 2016    5 - Production/Stable  pytest (>=2.9)
    :pypi:`pytest-djangoapp`                         Nice pytest plugin to help you with Django pluggable application testing.                                                                                                 Aug 04, 2021    4 - Beta               N/A
    :pypi:`pytest-django-cache-xdist`                A djangocachexdist plugin for pytest                                                                                                                                      May 12, 2020    4 - Beta               N/A
@@ -241,13 +248,14 @@ This list contains 943 plugins.
    :pypi:`pytest-django-sqlcounts`                  py.test plugin for reporting the number of SQLs executed per django testcase.                                                                                             Jun 16, 2015    4 - Beta               N/A
    :pypi:`pytest-django-testing-postgresql`         Use a temporary PostgreSQL database with pytest-django                                                                                                                    Dec 05, 2019    3 - Alpha              N/A
    :pypi:`pytest-doc`                               A documentation plugin for py.test.                                                                                                                                       Jun 28, 2015    5 - Production/Stable  N/A
+   :pypi:`pytest-docfiles`                          pytest plugin to test codeblocks in your documentation.                                                                                                                   Dec 22, 2021    4 - Beta               pytest (>=3.7.0)
    :pypi:`pytest-docgen`                            An RST Documentation Generator for pytest-based test suites                                                                                                               Apr 17, 2020    N/A                    N/A
    :pypi:`pytest-docker`                            Simple pytest fixtures for Docker and docker-compose based tests                                                                                                          Jun 14, 2021    N/A                    pytest (<7.0,>=4.0)
    :pypi:`pytest-docker-butla`                                                                                                                                                                                                Jun 16, 2019    3 - Alpha              N/A
    :pypi:`pytest-dockerc`                           Run, manage and stop Docker Compose project from Docker API                                                                                                               Oct 09, 2020    5 - Production/Stable  pytest (>=3.0)
    :pypi:`pytest-docker-compose`                    Manages Docker containers during your integration tests                                                                                                                   Jan 26, 2021    5 - Production/Stable  pytest (>=3.3)
    :pypi:`pytest-docker-db`                         A plugin to use docker databases for pytests                                                                                                                              Mar 20, 2021    5 - Production/Stable  pytest (>=3.1.1)
-   :pypi:`pytest-docker-fixtures`                   pytest docker fixtures                                                                                                                                                    Aug 30, 2021    3 - Alpha              pytest
+   :pypi:`pytest-docker-fixtures`                   pytest docker fixtures                                                                                                                                                    Nov 23, 2021    3 - Alpha              N/A
    :pypi:`pytest-docker-git-fixtures`               Pytest fixtures for testing with git scm.                                                                                                                                 Mar 11, 2021    4 - Beta               pytest
    :pypi:`pytest-docker-pexpect`                    pytest plugin for writing functional tests with pexpect and docker                                                                                                        Jan 14, 2019    N/A                    pytest
    :pypi:`pytest-docker-postgresql`                 A simple plugin to use with pytest                                                                                                                                        Sep 24, 2019    4 - Beta               pytest (>=3.5.0)
@@ -259,7 +267,7 @@ This list contains 943 plugins.
    :pypi:`pytest-doctest-custom`                    A py.test plugin for customizing string representations of doctest results.                                                                                               Jul 25, 2016    4 - Beta               N/A
    :pypi:`pytest-doctest-ellipsis-markers`          Setup additional values for ELLIPSIS_MARKER for doctests                                                                                                                  Jan 12, 2018    4 - Beta               N/A
    :pypi:`pytest-doctest-import`                    A simple pytest plugin to import names and add them to the doctest namespace.                                                                                             Nov 13, 2018    4 - Beta               pytest (>=3.3.0)
-   :pypi:`pytest-doctestplus`                       Pytest plugin with advanced doctest features.                                                                                                                             Sep 20, 2021    3 - Alpha              pytest (>=4.6)
+   :pypi:`pytest-doctestplus`                       Pytest plugin with advanced doctest features.                                                                                                                             Dec 09, 2021    3 - Alpha              pytest (>=4.6)
    :pypi:`pytest-doctest-ufunc`                     A plugin to run doctests in docstrings of Numpy ufuncs                                                                                                                    Aug 02, 2020    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-dolphin`                           Some extra stuff that we use ininternally                                                                                                                                 Nov 30, 2016    4 - Beta               pytest (==3.0.4)
    :pypi:`pytest-doorstop`                          A pytest plugin for adding test results into doorstop items.                                                                                                              Jun 09, 2020    4 - Beta               pytest (>=3.5.0)
@@ -267,7 +275,7 @@ This list contains 943 plugins.
    :pypi:`pytest-drf`                               A Django REST framework plugin for pytest.                                                                                                                                Nov 12, 2020    5 - Production/Stable  pytest (>=3.6)
    :pypi:`pytest-drivings`                          Tool to allow webdriver automation to be ran locally or remotely                                                                                                          Jan 13, 2021    N/A                    N/A
    :pypi:`pytest-drop-dup-tests`                    A Pytest plugin to drop duplicated tests during collection                                                                                                                May 23, 2020    4 - Beta               pytest (>=2.7)
-   :pypi:`pytest-dummynet`                          A py.test plugin providing access to a dummynet.                                                                                                                          Oct 13, 2021    5 - Production/Stable  pytest
+   :pypi:`pytest-dummynet`                          A py.test plugin providing access to a dummynet.                                                                                                                          Dec 15, 2021    5 - Production/Stable  pytest
    :pypi:`pytest-dump2json`                         A pytest plugin for dumping test results to json.                                                                                                                         Jun 29, 2015    N/A                    N/A
    :pypi:`pytest-duration-insights`                                                                                                                                                                                           Jun 25, 2021    N/A                    N/A
    :pypi:`pytest-dynamicrerun`                      A pytest plugin to rerun tests dynamically based off of test outcome and output.                                                                                          Aug 15, 2020    4 - Beta               N/A
@@ -283,16 +291,19 @@ This list contains 943 plugins.
    :pypi:`pytest-elements`                          Tool to help automate user interfaces                                                                                                                                     Jan 13, 2021    N/A                    pytest (>=5.4,<6.0)
    :pypi:`pytest-elk-reporter`                      A simple plugin to use with pytest                                                                                                                                        Jan 24, 2021    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-email`                             Send execution result email                                                                                                                                               Jul 08, 2020    N/A                    pytest
-   :pypi:`pytest-embedded`                          pytest embedded plugin                                                                                                                                                    Oct 25, 2021    N/A                    pytest (>=6.2.0)
-   :pypi:`pytest-embedded-idf`                      pytest embedded plugin for esp-idf project                                                                                                                                Oct 25, 2021    N/A                    N/A
-   :pypi:`pytest-embedded-jtag`                     pytest embedded plugin for testing with jtag                                                                                                                              Oct 25, 2021    N/A                    N/A
-   :pypi:`pytest-embedded-qemu`                     pytest embedded plugin for qemu, not target chip                                                                                                                          Oct 25, 2021    N/A                    N/A
+   :pypi:`pytest-embedded`                          pytest embedded plugin                                                                                                                                                    Jan 06, 2022    N/A                    pytest (>=6.2.0)
+   :pypi:`pytest-embedded-arduino`                  pytest embedded plugin for Arduino projects                                                                                                                               Jan 06, 2022    N/A                    N/A
+   :pypi:`pytest-embedded-idf`                      pytest embedded plugin for esp-idf project                                                                                                                                Jan 06, 2022    N/A                    N/A
+   :pypi:`pytest-embedded-jtag`                     pytest embedded plugin for testing with jtag                                                                                                                              Jan 06, 2022    N/A                    N/A
+   :pypi:`pytest-embedded-qemu`                     pytest embedded plugin for qemu, not target chip                                                                                                                          Jan 06, 2022    N/A                    N/A
    :pypi:`pytest-embedded-qemu-idf`                 pytest embedded plugin for esp-idf project by qemu, not target chip                                                                                                       Jun 29, 2021    N/A                    N/A
-   :pypi:`pytest-embedded-serial`                   pytest embedded plugin for testing serial ports                                                                                                                           Oct 25, 2021    N/A                    N/A
-   :pypi:`pytest-embedded-serial-esp`               pytest embedded plugin for testing espressif boards via serial ports                                                                                                      Oct 25, 2021    N/A                    N/A
+   :pypi:`pytest-embedded-serial`                   pytest embedded plugin for testing serial ports                                                                                                                           Jan 06, 2022    N/A                    N/A
+   :pypi:`pytest-embedded-serial-esp`               pytest embedded plugin for testing espressif boards via serial ports                                                                                                      Jan 06, 2022    N/A                    N/A
    :pypi:`pytest-emoji`                             A pytest plugin that adds emojis to your test result report                                                                                                               Feb 19, 2019    4 - Beta               pytest (>=4.2.1)
    :pypi:`pytest-emoji-output`                      Pytest plugin to represent test output with emoji support                                                                                                                 Oct 10, 2021    4 - Beta               pytest (==6.0.1)
-   :pypi:`pytest-enabler`                           Enable installed pytest plugins                                                                                                                                           Jan 19, 2021    5 - Production/Stable  pytest (!=3.7.3,>=3.5) ; extra == 'testing'
+   :pypi:`pytest-enabler`                           Enable installed pytest plugins                                                                                                                                           Nov 08, 2021    5 - Production/Stable  pytest (>=6) ; extra == 'testing'
+   :pypi:`pytest-encode`                            set your encoding and logger                                                                                                                                              Nov 06, 2021    N/A                    N/A
+   :pypi:`pytest-encode-kane`                       set your encoding and logger                                                                                                                                              Nov 16, 2021    N/A                    pytest
    :pypi:`pytest-enhancements`                      Improvements for pytest (rejected upstream)                                                                                                                               Oct 30, 2019    4 - Beta               N/A
    :pypi:`pytest-env`                               py.test plugin that allows you to add environment variables.                                                                                                              Jun 16, 2017    4 - Beta               N/A
    :pypi:`pytest-envfiles`                          A py.test plugin that parses environment files before running tests                                                                                                       Oct 08, 2015    3 - Alpha              N/A
@@ -309,10 +320,12 @@ This list contains 943 plugins.
    :pypi:`pytest-excel`                             pytest plugin for generating excel reports                                                                                                                                Oct 06, 2020    5 - Production/Stable  N/A
    :pypi:`pytest-exceptional`                       Better exceptions                                                                                                                                                         Mar 16, 2017    4 - Beta               N/A
    :pypi:`pytest-exception-script`                  Walk your code through exception script to check it's resiliency to failures.                                                                                             Aug 04, 2020    3 - Alpha              pytest
-   :pypi:`pytest-executable`                        pytest plugin for testing executables                                                                                                                                     Aug 10, 2020    4 - Beta               pytest (<6.1,>=4.3)
+   :pypi:`pytest-executable`                        pytest plugin for testing executables                                                                                                                                     Nov 10, 2021    4 - Beta               pytest (<6.3,>=4.3)
+   :pypi:`pytest-execution-timer`                   A timer for the phases of Pytest's execution.                                                                                                                             Dec 24, 2021    4 - Beta               N/A
    :pypi:`pytest-expect`                            py.test plugin to store test expectations and mark tests based on them                                                                                                    Apr 21, 2016    4 - Beta               N/A
-   :pypi:`pytest-expecter`                          Better testing with expecter and pytest.                                                                                                                                  Jul 08, 2020    5 - Production/Stable  N/A
+   :pypi:`pytest-expecter`                          Better testing with expecter and pytest.                                                                                                                                  Jan 10, 2022    5 - Production/Stable  N/A
    :pypi:`pytest-expectr`                           This plugin is used to expect multiple assert using pytest framework.                                                                                                     Oct 05, 2018    N/A                    pytest (>=2.4.2)
+   :pypi:`pytest-experiments`                       A pytest plugin to help developers of research-oriented software projects keep track of the results of their numerical experiments.                                       Dec 13, 2021    4 - Beta               pytest (>=6.2.5,<7.0.0)
    :pypi:`pytest-explicit`                          A Pytest plugin to ignore certain marked tests by default                                                                                                                 Jun 15, 2021    5 - Production/Stable  pytest
    :pypi:`pytest-exploratory`                       Interactive console for pytest.                                                                                                                                           Aug 03, 2021    N/A                    pytest (>=5.3)
    :pypi:`pytest-external-blockers`                 a special outcome for tests that are blocked for external reasons                                                                                                         Oct 05, 2021    N/A                    pytest
@@ -324,6 +337,7 @@ This list contains 943 plugins.
    :pypi:`pytest-factoryboy-state`                  Simple factoryboy random state management                                                                                                                                 Dec 11, 2020    4 - Beta               pytest (>=5.0)
    :pypi:`pytest-failed-screenshot`                 Test case fails,take a screenshot,save it,attach it to the allure                                                                                                         Apr 21, 2021    N/A                    N/A
    :pypi:`pytest-failed-to-verify`                  A pytest plugin that helps better distinguishing real test failures from setup flakiness.                                                                                 Aug 08, 2019    5 - Production/Stable  pytest (>=4.1.0)
+   :pypi:`pytest-fail-slow`                         Fail tests that take too long to run                                                                                                                                      Dec 10, 2021    4 - Beta               pytest (>=6.0)
    :pypi:`pytest-faker`                             Faker integration with the pytest framework.                                                                                                                              Dec 19, 2016    6 - Mature             N/A
    :pypi:`pytest-falcon`                            Pytest helpers for Falcon.                                                                                                                                                Sep 07, 2016    4 - Beta               N/A
    :pypi:`pytest-falcon-client`                     Pytest \`client\` fixture for the Falcon Framework                                                                                                                        Mar 19, 2019    N/A                    N/A
@@ -339,7 +353,7 @@ This list contains 943 plugins.
    :pypi:`pytest-filemarker`                        A pytest plugin that runs marked tests when files change.                                                                                                                 Dec 01, 2020    N/A                    pytest
    :pypi:`pytest-filter-case`                       run test cases filter by mark                                                                                                                                             Nov 05, 2020    N/A                    N/A
    :pypi:`pytest-filter-subpackage`                 Pytest plugin for filtering based on sub-packages                                                                                                                         Jan 09, 2020    3 - Alpha              pytest (>=3.0)
-   :pypi:`pytest-find-dependencies`                 A pytest plugin to find dependencies between tests                                                                                                                        Apr 21, 2021    4 - Beta               pytest (>=3.5.0)
+   :pypi:`pytest-find-dependencies`                 A pytest plugin to find dependencies between tests                                                                                                                        Jan 15, 2022    4 - Beta               pytest (>=4.3.0)
    :pypi:`pytest-finer-verdicts`                    A pytest plugin to treat non-assertion failures as test errors.                                                                                                           Jun 18, 2020    N/A                    pytest (>=5.4.3)
    :pypi:`pytest-firefox`                           pytest plugin to manipulate firefox                                                                                                                                       Aug 08, 2017    3 - Alpha              pytest (>=3.0.2)
    :pypi:`pytest-fixture-config`                    Fixture configuration utils for py.test                                                                                                                                   May 28, 2019    5 - Production/Stable  pytest
@@ -350,9 +364,10 @@ This list contains 943 plugins.
    :pypi:`pytest-fixture-tools`                     Plugin for pytest which provides tools for fixtures                                                                                                                       Aug 18, 2020    6 - Mature             pytest
    :pypi:`pytest-fixture-typecheck`                 A pytest plugin to assert type annotations at runtime.                                                                                                                    Aug 24, 2021    N/A                    pytest
    :pypi:`pytest-flake8`                            pytest plugin to check FLAKE8 requirements                                                                                                                                Dec 16, 2020    4 - Beta               pytest (>=3.5)
-   :pypi:`pytest-flake8-path`                       A pytest fixture for testing flake8 plugins.                                                                                                                              Aug 11, 2021    5 - Production/Stable  pytest
+   :pypi:`pytest-flake8-path`                       A pytest fixture for testing flake8 plugins.                                                                                                                              Jan 10, 2022    5 - Production/Stable  pytest
+   :pypi:`pytest-flake8-v2`                         pytest plugin to check FLAKE8 requirements                                                                                                                                Jan 04, 2022    4 - Beta               pytest (>=3.5)
    :pypi:`pytest-flakefinder`                       Runs tests multiple times to expose flakiness.                                                                                                                            Jul 28, 2020    4 - Beta               pytest (>=2.7.1)
-   :pypi:`pytest-flakes`                            pytest plugin to check source code with pyflakes                                                                                                                          Oct 26, 2021    5 - Production/Stable  N/A
+   :pypi:`pytest-flakes`                            pytest plugin to check source code with pyflakes                                                                                                                          Dec 02, 2021    5 - Production/Stable  pytest (>=5)
    :pypi:`pytest-flaptastic`                        Flaptastic py.test plugin                                                                                                                                                 Mar 17, 2019    N/A                    N/A
    :pypi:`pytest-flask`                             A set of py.test fixtures to test Flask applications.                                                                                                                     Feb 27, 2021    5 - Production/Stable  pytest (>=5.2)
    :pypi:`pytest-flask-sqlalchemy`                  A pytest plugin for preserving test isolation in Flask-SQlAlchemy using database transactions.                                                                            Apr 04, 2019    4 - Beta               pytest (>=3.2.1)
@@ -364,23 +379,25 @@ This list contains 943 plugins.
    :pypi:`pytest-forward-compatibility`             A pytest plugin to shim pytest commandline options for fowards compatibility                                                                                              Sep 29, 2020    N/A                    N/A
    :pypi:`pytest-freezegun`                         Wrap tests with fixtures in freeze_time                                                                                                                                   Jul 19, 2020    4 - Beta               pytest (>=3.0.0)
    :pypi:`pytest-freeze-reqs`                       Check if requirement files are frozen                                                                                                                                     Apr 29, 2021    N/A                    N/A
-   :pypi:`pytest-frozen-uuids`                      Deterministically frozen UUID's for your tests                                                                                                                            Oct 19, 2021    N/A                    pytest (>=3.0)
+   :pypi:`pytest-frozen-uuids`                      Deterministically frozen UUID's for your tests                                                                                                                            Dec 08, 2021    N/A                    pytest (>=3.0)
    :pypi:`pytest-func-cov`                          Pytest plugin for measuring function coverage                                                                                                                             Apr 15, 2021    3 - Alpha              pytest (>=5)
-   :pypi:`pytest-funparam`                          An alternative way to parametrize test cases                                                                                                                              Apr 23, 2021    4 - Beta               pytest (>=4.6.0)
+   :pypi:`pytest-funparam`                          An alternative way to parametrize test cases.                                                                                                                             Dec 02, 2021    4 - Beta               pytest >=4.6.0
    :pypi:`pytest-fxa`                               pytest plugin for Firefox Accounts                                                                                                                                        Aug 28, 2018    5 - Production/Stable  N/A
    :pypi:`pytest-fxtest`                                                                                                                                                                                                      Oct 27, 2020    N/A                    N/A
    :pypi:`pytest-gc`                                The garbage collector plugin for py.test                                                                                                                                  Feb 01, 2018    N/A                    N/A
    :pypi:`pytest-gcov`                              Uses gcov to measure test coverage of a C library                                                                                                                         Feb 01, 2018    3 - Alpha              N/A
    :pypi:`pytest-gevent`                            Ensure that gevent is properly patched when invoking pytest                                                                                                               Feb 25, 2020    N/A                    pytest
    :pypi:`pytest-gherkin`                           A flexible framework for executing BDD gherkin tests                                                                                                                      Jul 27, 2019    3 - Alpha              pytest (>=5.0.0)
+   :pypi:`pytest-gh-log-group`                      pytest plugin for gh actions                                                                                                                                              Jan 11, 2022    3 - Alpha              pytest
    :pypi:`pytest-ghostinspector`                    For finding/executing Ghost Inspector tests                                                                                                                               May 17, 2016    3 - Alpha              N/A
-   :pypi:`pytest-girder`                            A set of pytest fixtures for testing Girder applications.                                                                                                                 Oct 08, 2021    N/A                    N/A
+   :pypi:`pytest-girder`                            A set of pytest fixtures for testing Girder applications.                                                                                                                 Jan 10, 2022    N/A                    N/A
    :pypi:`pytest-git`                               Git repository fixture for py.test                                                                                                                                        May 28, 2019    5 - Production/Stable  pytest
    :pypi:`pytest-gitcov`                            Pytest plugin for reporting on coverage of the last git commit.                                                                                                           Jan 11, 2020    2 - Pre-Alpha          N/A
    :pypi:`pytest-git-fixtures`                      Pytest fixtures for testing with git.                                                                                                                                     Mar 11, 2021    4 - Beta               pytest
    :pypi:`pytest-github`                            Plugin for py.test that associates tests with github issues using a marker.                                                                                               Mar 07, 2019    5 - Production/Stable  N/A
-   :pypi:`pytest-github-actions-annotate-failures`  pytest plugin to annotate failed tests with a workflow command for GitHub Actions                                                                                         Oct 24, 2021    N/A                    pytest (>=4.0.0)
+   :pypi:`pytest-github-actions-annotate-failures`  pytest plugin to annotate failed tests with a workflow command for GitHub Actions                                                                                         Dec 08, 2021    N/A                    pytest (>=4.0.0)
    :pypi:`pytest-gitignore`                         py.test plugin to ignore the same files as git                                                                                                                            Jul 17, 2015    4 - Beta               N/A
+   :pypi:`pytest-glamor-allure`                     Extends allure-pytest functionality                                                                                                                                       Nov 26, 2021    4 - Beta               pytest
    :pypi:`pytest-gnupg-fixtures`                    Pytest fixtures for testing with gnupg.                                                                                                                                   Mar 04, 2021    4 - Beta               pytest
    :pypi:`pytest-golden`                            Plugin for pytest that offloads expected outputs to data files                                                                                                            Nov 23, 2020    N/A                    pytest (>=6.1.2,<7.0.0)
    :pypi:`pytest-graphql-schema`                    Get graphql schema as fixture for pytest                                                                                                                                  Oct 18, 2019    N/A                    N/A
@@ -390,15 +407,16 @@ This list contains 943 plugins.
    :pypi:`pytest-hammertime`                        Display "🔨 " instead of "." for passed pytest tests.                                                                                                                     Jul 28, 2018    N/A                    pytest
    :pypi:`pytest-harvest`                           Store data created during your pytest tests execution, and retrieve it at the end of the session, e.g. for applicative benchmarking purposes.                             Apr 01, 2021    5 - Production/Stable  N/A
    :pypi:`pytest-helm-chart`                        A plugin to provide different types and configs of Kubernetes clusters that can be used for testing.                                                                      Jun 15, 2020    4 - Beta               pytest (>=5.4.2,<6.0.0)
-   :pypi:`pytest-helm-charts`                       A plugin to provide different types and configs of Kubernetes clusters that can be used for testing.                                                                      Oct 26, 2021    4 - Beta               pytest (>=6.1.2,<7.0.0)
+   :pypi:`pytest-helm-charts`                       A plugin to provide different types and configs of Kubernetes clusters that can be used for testing.                                                                      Jan 10, 2022    4 - Beta               pytest (>=6.1.2,<7.0.0)
    :pypi:`pytest-helper`                            Functions to help in using the pytest testing framework                                                                                                                   May 31, 2019    5 - Production/Stable  N/A
    :pypi:`pytest-helpers`                           pytest helpers                                                                                                                                                            May 17, 2020    N/A                    pytest
-   :pypi:`pytest-helpers-namespace`                 Pytest Helpers Namespace Plugin                                                                                                                                           Apr 29, 2021    5 - Production/Stable  pytest (>=6.0.0)
+   :pypi:`pytest-helpers-namespace`                 Pytest Helpers Namespace Plugin                                                                                                                                           Dec 29, 2021    5 - Production/Stable  pytest (>=6.0.0)
    :pypi:`pytest-hidecaptured`                      Hide captured output                                                                                                                                                      May 04, 2018    4 - Beta               pytest (>=2.8.5)
    :pypi:`pytest-historic`                          Custom report to display pytest historical execution records                                                                                                              Apr 08, 2020    N/A                    pytest
    :pypi:`pytest-historic-hook`                     Custom listener to store execution results into MYSQL DB, which is used for pytest-historic report                                                                        Apr 08, 2020    N/A                    pytest
    :pypi:`pytest-homeassistant`                     A pytest plugin for use with homeassistant custom components.                                                                                                             Aug 12, 2020    4 - Beta               N/A
-   :pypi:`pytest-homeassistant-custom-component`    Experimental package to automatically extract test plugins for Home Assistant custom components                                                                           Sep 30, 2021    3 - Alpha              pytest (==6.2.5)
+   :pypi:`pytest-homeassistant-custom-component`    Experimental package to automatically extract test plugins for Home Assistant custom components                                                                           Jan 11, 2022    3 - Alpha              pytest (==6.2.5)
+   :pypi:`pytest-honey`                             A simple plugin to use with pytest                                                                                                                                        Jan 07, 2022    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-honors`                            Report on tests that honor constraints, and guard against regressions                                                                                                     Mar 06, 2020    4 - Beta               N/A
    :pypi:`pytest-hoverfly`                          Simplify working with Hoverfly from pytest                                                                                                                                Jul 12, 2021    N/A                    pytest (>=5.0)
    :pypi:`pytest-hoverfly-wrapper`                  Integrates the Hoverfly HTTP proxy into Pytest                                                                                                                            Aug 29, 2021    4 - Beta               N/A
@@ -409,18 +427,19 @@ This list contains 943 plugins.
    :pypi:`pytest-html-reporter`                     Generates a static html report based on pytest framework                                                                                                                  Apr 25, 2021    N/A                    N/A
    :pypi:`pytest-html-thread`                       pytest plugin for generating HTML reports                                                                                                                                 Dec 29, 2020    5 - Production/Stable  N/A
    :pypi:`pytest-http`                              Fixture "http" for http requests                                                                                                                                          Dec 05, 2019    N/A                    N/A
-   :pypi:`pytest-httpbin`                           Easily test your HTTP library against a local copy of httpbin                                                                                                             Feb 11, 2019    5 - Production/Stable  N/A
+   :pypi:`pytest-httpbin`                           Easily test your HTTP library against a local copy of httpbin                                                                                                             Dec 25, 2021    5 - Production/Stable  N/A
    :pypi:`pytest-http-mocker`                       Pytest plugin for http mocking (via https://github.com/vilus/mocker)                                                                                                      Oct 20, 2019    N/A                    N/A
    :pypi:`pytest-httpretty`                         A thin wrapper of HTTPretty for pytest                                                                                                                                    Feb 16, 2014    3 - Alpha              N/A
-   :pypi:`pytest-httpserver`                        pytest-httpserver is a httpserver for pytest                                                                                                                              Oct 18, 2021    3 - Alpha              pytest ; extra == 'dev'
-   :pypi:`pytest-httpx`                             Send responses to httpx.                                                                                                                                                  Oct 22, 2021    5 - Production/Stable  pytest (==6.*)
-   :pypi:`pytest-httpx-blockage`                    Disable httpx requests during a test run                                                                                                                                  Apr 28, 2021    N/A                    pytest (>=6.2.3)
+   :pypi:`pytest-httpserver`                        pytest-httpserver is a httpserver for pytest                                                                                                                              Dec 15, 2021    3 - Alpha              N/A
+   :pypi:`pytest-httpx`                             Send responses to httpx.                                                                                                                                                  Dec 27, 2021    5 - Production/Stable  pytest (==6.*)
+   :pypi:`pytest-httpx-blockage`                    Disable httpx requests during a test run                                                                                                                                  Nov 16, 2021    N/A                    pytest (>=6.2.5)
    :pypi:`pytest-hue`                               Visualise PyTest status via your Phillips Hue lights                                                                                                                      May 09, 2019    N/A                    N/A
    :pypi:`pytest-hylang`                            Pytest plugin to allow running tests written in hylang                                                                                                                    Mar 28, 2021    N/A                    pytest
    :pypi:`pytest-hypo-25`                           help hypo module for pytest                                                                                                                                               Jan 12, 2020    3 - Alpha              N/A
-   :pypi:`pytest-ibutsu`                            A plugin to sent pytest results to an Ibutsu server                                                                                                                       Jun 16, 2021    4 - Beta               pytest
+   :pypi:`pytest-ibutsu`                            A plugin to sent pytest results to an Ibutsu server                                                                                                                       Jan 14, 2022    4 - Beta               pytest
    :pypi:`pytest-icdiff`                            use icdiff for better error messages in pytest assertions                                                                                                                 Apr 08, 2020    4 - Beta               N/A
    :pypi:`pytest-idapro`                            A pytest plugin for idapython. Allows a pytest setup to run tests outside and inside IDA in an automated manner by runnig pytest inside IDA and by mocking idapython api  Nov 03, 2018    N/A                    N/A
+   :pypi:`pytest-idempotent`                        Pytest plugin for testing function idempotence.                                                                                                                           Jan 10, 2022    N/A                    N/A
    :pypi:`pytest-ignore-flaky`                      ignore failures from flaky tests (pytest plugin)                                                                                                                          Apr 23, 2021    5 - Production/Stable  N/A
    :pypi:`pytest-image-diff`                                                                                                                                                                                                  Jul 28, 2021    3 - Alpha              pytest
    :pypi:`pytest-incremental`                       an incremental test runner (pytest plugin)                                                                                                                                Apr 24, 2021    5 - Production/Stable  N/A
@@ -444,12 +463,13 @@ This list contains 943 plugins.
    :pypi:`pytest-ipdb`                              A py.test plug-in to enable drop to ipdb debugger on test failure.                                                                                                        Sep 02, 2014    2 - Pre-Alpha          N/A
    :pypi:`pytest-ipynb`                             THIS PROJECT IS ABANDONED                                                                                                                                                 Jan 29, 2019    3 - Alpha              N/A
    :pypi:`pytest-isort`                             py.test plugin to check import ordering using isort                                                                                                                       Apr 27, 2021    5 - Production/Stable  N/A
+   :pypi:`pytest-is-running`                        pytest plugin providing a function to check if pytest is running.                                                                                                         Jan 10, 2022    5 - Production/Stable  pytest
    :pypi:`pytest-it`                                Pytest plugin to display test reports as a plaintext spec, inspired by Rspec: https://github.com/mattduck/pytest-it.                                                      Jan 22, 2020    4 - Beta               N/A
    :pypi:`pytest-iterassert`                        Nicer list and iterable assertion messages for pytest                                                                                                                     May 11, 2020    3 - Alpha              N/A
    :pypi:`pytest-jasmine`                           Run jasmine tests from your pytest test suite                                                                                                                             Nov 04, 2017    1 - Planning           N/A
    :pypi:`pytest-jest`                              A custom jest-pytest oriented Pytest reporter                                                                                                                             May 22, 2018    4 - Beta               pytest (>=3.3.2)
-   :pypi:`pytest-jira`                              py.test JIRA integration plugin, using markers                                                                                                                            Nov 29, 2019    N/A                    N/A
-   :pypi:`pytest-jira-xray`                         pytest plugin to integrate tests with JIRA XRAY                                                                                                                           Oct 13, 2021    3 - Alpha              pytest
+   :pypi:`pytest-jira`                              py.test JIRA integration plugin, using markers                                                                                                                            Dec 02, 2021    3 - Alpha              N/A
+   :pypi:`pytest-jira-xray`                         pytest plugin to integrate tests with JIRA XRAY                                                                                                                           Dec 10, 2021    3 - Alpha              pytest
    :pypi:`pytest-jobserver`                         Limit parallel tests with posix jobserver.                                                                                                                                May 15, 2019    5 - Production/Stable  pytest
    :pypi:`pytest-joke`                              Test failures are better served with humor.                                                                                                                               Oct 08, 2019    4 - Beta               pytest (>=4.2.1)
    :pypi:`pytest-json`                              Generate JSON test reports                                                                                                                                                Jan 18, 2016    4 - Beta               N/A
@@ -471,7 +491,7 @@ This list contains 943 plugins.
    :pypi:`pytest-leaks`                             A pytest plugin to trace resource leaks.                                                                                                                                  Nov 27, 2019    1 - Planning           N/A
    :pypi:`pytest-level`                             Select tests of a given level or lower                                                                                                                                    Oct 21, 2019    N/A                    pytest
    :pypi:`pytest-libfaketime`                       A python-libfaketime plugin for pytest.                                                                                                                                   Dec 22, 2018    4 - Beta               pytest (>=3.0.0)
-   :pypi:`pytest-libiio`                            A pytest plugin to manage interfacing with libiio contexts                                                                                                                Oct 23, 2021    4 - Beta               N/A
+   :pypi:`pytest-libiio`                            A pytest plugin to manage interfacing with libiio contexts                                                                                                                Dec 15, 2021    4 - Beta               N/A
    :pypi:`pytest-libnotify`                         Pytest plugin that shows notifications about the test run                                                                                                                 Apr 02, 2021    3 - Alpha              pytest
    :pypi:`pytest-ligo`                                                                                                                                                                                                        Jan 16, 2020    4 - Beta               N/A
    :pypi:`pytest-lineno`                            A pytest plugin to show the line numbers of test functions                                                                                                                Dec 04, 2020    N/A                    pytest
@@ -481,10 +501,10 @@ This list contains 943 plugins.
    :pypi:`pytest-litf`                              A pytest plugin that stream output in LITF format                                                                                                                         Jan 18, 2021    4 - Beta               pytest (>=3.1.1)
    :pypi:`pytest-live`                              Live results for pytest                                                                                                                                                   Mar 08, 2020    N/A                    pytest
    :pypi:`pytest-localftpserver`                    A PyTest plugin which provides an FTP fixture for your tests                                                                                                              Aug 25, 2021    5 - Production/Stable  pytest
-   :pypi:`pytest-localserver`                       py.test plugin to test server connections locally.                                                                                                                        Nov 14, 2018    4 - Beta               N/A
+   :pypi:`pytest-localserver`                       py.test plugin to test server connections locally.                                                                                                                        Dec 13, 2021    4 - Beta               N/A
    :pypi:`pytest-localstack`                        Pytest plugin for AWS integration tests                                                                                                                                   Aug 22, 2019    4 - Beta               pytest (>=3.3.0)
-   :pypi:`pytest-lockable`                          lockable resource plugin for pytest                                                                                                                                       Oct 23, 2021    5 - Production/Stable  pytest
-   :pypi:`pytest-locker`                            Used to lock object during testing. Essentially changing assertions from being hard coded to asserting that nothing changed                                               Oct 26, 2021    N/A                    pytest (>=5.4)
+   :pypi:`pytest-lockable`                          lockable resource plugin for pytest                                                                                                                                       Nov 09, 2021    5 - Production/Stable  pytest
+   :pypi:`pytest-locker`                            Used to lock object during testing. Essentially changing assertions from being hard coded to asserting that nothing changed                                               Oct 29, 2021    N/A                    pytest (>=5.4)
    :pypi:`pytest-log`                               print log                                                                                                                                                                 Aug 15, 2021    N/A                    pytest (>=3.8)
    :pypi:`pytest-logbook`                           py.test plugin to capture logbook log messages                                                                                                                            Nov 23, 2015    5 - Production/Stable  pytest (>=2.8)
    :pypi:`pytest-logdog`                            Pytest plugin to test logging                                                                                                                                             Jun 15, 2021    1 - Planning           pytest (>=6.2.0)
@@ -499,7 +519,7 @@ This list contains 943 plugins.
    :pypi:`pytest-markfiltration`                    UNKNOWN                                                                                                                                                                   Nov 08, 2011    3 - Alpha              N/A
    :pypi:`pytest-mark-no-py3`                       pytest plugin and bowler codemod to help migrate tests to Python 3                                                                                                        May 17, 2019    N/A                    pytest
    :pypi:`pytest-marks`                             UNKNOWN                                                                                                                                                                   Nov 23, 2012    3 - Alpha              N/A
-   :pypi:`pytest-matcher`                           Match test output against patterns stored in files                                                                                                                        Apr 23, 2020    5 - Production/Stable  pytest (>=3.4)
+   :pypi:`pytest-matcher`                           Match test output against patterns stored in files                                                                                                                        Dec 10, 2021    5 - Production/Stable  N/A
    :pypi:`pytest-match-skip`                        Skip matching marks. Matches partial marks using wildcards.                                                                                                               May 15, 2019    4 - Beta               pytest (>=4.4.1)
    :pypi:`pytest-mat-report`                        this is report                                                                                                                                                            Jan 20, 2021    N/A                    N/A
    :pypi:`pytest-matrix`                            Provide tools for generating tests from combinations of fixtures.                                                                                                         Jun 24, 2020    5 - Production/Stable  pytest (>=5.4.3,<6.0.0)
@@ -509,6 +529,7 @@ This list contains 943 plugins.
    :pypi:`pytest-memprof`                           Estimates memory consumption of test functions                                                                                                                            Mar 29, 2019    4 - Beta               N/A
    :pypi:`pytest-menu`                              A pytest plugin for console based interactive test selection just after the collection phase                                                                              Oct 04, 2017    3 - Alpha              pytest (>=2.4.2)
    :pypi:`pytest-mercurial`                         pytest plugin to write integration tests for projects using Mercurial Python internals                                                                                    Nov 21, 2020    1 - Planning           N/A
+   :pypi:`pytest-message`                           Pytest plugin for sending report message of marked tests execution                                                                                                        Jan 05, 2022    N/A                    pytest (>=6.2.5)
    :pypi:`pytest-messenger`                         Pytest to Slack reporting plugin                                                                                                                                          Dec 16, 2020    5 - Production/Stable  N/A
    :pypi:`pytest-metadata`                          pytest plugin for test session metadata                                                                                                                                   Nov 27, 2020    5 - Production/Stable  pytest (>=2.9.0)
    :pypi:`pytest-metrics`                           Custom metrics report for pytest                                                                                                                                          Apr 04, 2020    N/A                    pytest
@@ -519,25 +540,25 @@ This list contains 943 plugins.
    :pypi:`pytest-mocha`                             pytest plugin to display test execution output like a mochajs                                                                                                             Apr 02, 2020    4 - Beta               pytest (>=5.4.0)
    :pypi:`pytest-mock`                              Thin-wrapper around the mock package for easier use with pytest                                                                                                           May 06, 2021    5 - Production/Stable  pytest (>=5.0)
    :pypi:`pytest-mock-api`                          A mock API server with configurable routes and responses available as a fixture.                                                                                          Feb 13, 2019    1 - Planning           pytest (>=4.0.0)
-   :pypi:`pytest-mock-generator`                    A pytest fixture wrapper for https://pypi.org/project/mock-generator                                                                                                      Aug 10, 2021    5 - Production/Stable  N/A
+   :pypi:`pytest-mock-generator`                    A pytest fixture wrapper for https://pypi.org/project/mock-generator                                                                                                      Jan 05, 2022    5 - Production/Stable  N/A
    :pypi:`pytest-mock-helper`                       Help you mock HTTP call and generate mock code                                                                                                                            Jan 24, 2018    N/A                    pytest
    :pypi:`pytest-mockito`                           Base fixtures for mockito                                                                                                                                                 Jul 11, 2018    4 - Beta               N/A
    :pypi:`pytest-mockredis`                         An in-memory mock of a Redis server that runs in a separate thread. This is to be used for unit-tests that require a Redis database.                                      Jan 02, 2018    2 - Pre-Alpha          N/A
-   :pypi:`pytest-mock-resources`                    A pytest plugin for easily instantiating reproducible mock resources.                                                                                                     Sep 20, 2021    N/A                    pytest (>=1.0)
-   :pypi:`pytest-mock-server`                       Mock server plugin for pytest                                                                                                                                             Apr 06, 2020    4 - Beta               N/A
+   :pypi:`pytest-mock-resources`                    A pytest plugin for easily instantiating reproducible mock resources.                                                                                                     Jan 11, 2022    N/A                    pytest (>=1.0)
+   :pypi:`pytest-mock-server`                       Mock server plugin for pytest                                                                                                                                             Jan 09, 2022    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-mockservers`                       A set of fixtures to test your requests to HTTP/UDP servers                                                                                                               Mar 31, 2020    N/A                    pytest (>=4.3.0)
    :pypi:`pytest-modifyjunit`                       Utility for adding additional properties to junit xml for IDM QE                                                                                                          Jan 10, 2019    N/A                    N/A
    :pypi:`pytest-modifyscope`                       pytest plugin to modify fixture scope                                                                                                                                     Apr 12, 2020    N/A                    pytest
    :pypi:`pytest-molecule`                          PyTest Molecule Plugin :: discover and run molecule tests                                                                                                                 Oct 06, 2021    5 - Production/Stable  N/A
    :pypi:`pytest-mongo`                             MongoDB process and client fixtures plugin for Pytest.                                                                                                                    Jun 07, 2021    5 - Production/Stable  pytest
    :pypi:`pytest-mongodb`                           pytest plugin for MongoDB fixtures                                                                                                                                        Dec 07, 2019    5 - Production/Stable  pytest (>=2.5.2)
-   :pypi:`pytest-monitor`                           Pytest plugin for analyzing resource usage.                                                                                                                               Aug 24, 2021    5 - Production/Stable  pytest
+   :pypi:`pytest-monitor`                           Pytest plugin for analyzing resource usage.                                                                                                                               Dec 23, 2021    5 - Production/Stable  pytest
    :pypi:`pytest-monkeyplus`                        pytest's monkeypatch subclass with extra functionalities                                                                                                                  Sep 18, 2012    5 - Production/Stable  N/A
    :pypi:`pytest-monkeytype`                        pytest-monkeytype: Generate Monkeytype annotations from your pytest tests.                                                                                                Jul 29, 2020    4 - Beta               N/A
    :pypi:`pytest-moto`                              Fixtures for integration tests of AWS services,uses moto mocking library.                                                                                                 Aug 28, 2015    1 - Planning           N/A
    :pypi:`pytest-motor`                             A pytest plugin for motor, the non-blocking MongoDB driver.                                                                                                               Jul 21, 2021    3 - Alpha              pytest
    :pypi:`pytest-mp`                                A test batcher for multiprocessed Pytest runs                                                                                                                             May 23, 2018    4 - Beta               pytest
-   :pypi:`pytest-mpi`                               pytest plugin to collect information from tests                                                                                                                           Mar 14, 2021    3 - Alpha              pytest
+   :pypi:`pytest-mpi`                               pytest plugin to collect information from tests                                                                                                                           Jan 08, 2022    3 - Alpha              pytest
    :pypi:`pytest-mpl`                               pytest plugin to help with testing figures output from Matplotlib                                                                                                         Jul 02, 2021    4 - Beta               pytest
    :pypi:`pytest-mproc`                             low-startup-overhead, scalable, distributed-testing pytest plugin                                                                                                         Mar 07, 2021    4 - Beta               pytest
    :pypi:`pytest-multi-check`                       Pytest-плагин, реализует возможность мульти проверок и мягких проверок                                                                                                    Jun 03, 2021    N/A                    pytest
@@ -547,12 +568,12 @@ This list contains 943 plugins.
    :pypi:`pytest-mutagen`                           Add the mutation testing feature to pytest                                                                                                                                Jul 24, 2020    N/A                    pytest (>=5.4)
    :pypi:`pytest-mypy`                              Mypy static type checker plugin for Pytest                                                                                                                                Mar 21, 2021    4 - Beta               pytest (>=3.5)
    :pypi:`pytest-mypyd`                             Mypy static type checker plugin for Pytest                                                                                                                                Aug 20, 2019    4 - Beta               pytest (<4.7,>=2.8) ; python_version < "3.5"
-   :pypi:`pytest-mypy-plugins`                      pytest plugin for writing tests for mypy plugins                                                                                                                          Oct 19, 2021    3 - Alpha              pytest (>=6.0.0)
+   :pypi:`pytest-mypy-plugins`                      pytest plugin for writing tests for mypy plugins                                                                                                                          Jan 11, 2022    3 - Alpha              pytest (>=6.0.0)
    :pypi:`pytest-mypy-plugins-shim`                 Substitute for "pytest-mypy-plugins" for Python implementations which aren't supported by mypy.                                                                           Apr 12, 2021    N/A                    N/A
    :pypi:`pytest-mypy-testing`                      Pytest plugin to check mypy output.                                                                                                                                       Jun 13, 2021    N/A                    pytest
-   :pypi:`pytest-mysql`                             MySQL process and client fixtures for pytest                                                                                                                              Jun 01, 2021    5 - Production/Stable  pytest
+   :pypi:`pytest-mysql`                             MySQL process and client fixtures for pytest                                                                                                                              Nov 22, 2021    5 - Production/Stable  pytest
    :pypi:`pytest-needle`                            pytest plugin for visual testing websites using selenium                                                                                                                  Dec 10, 2018    4 - Beta               pytest (<5.0.0,>=3.0.0)
-   :pypi:`pytest-neo`                               pytest-neo is a plugin for pytest that shows tests like screen of Matrix.                                                                                                 Apr 23, 2019    3 - Alpha              pytest (>=3.7.2)
+   :pypi:`pytest-neo`                               pytest-neo is a plugin for pytest that shows tests like screen of Matrix.                                                                                                 Jan 08, 2022    3 - Alpha              pytest (>=6.2.0)
    :pypi:`pytest-network`                           A simple plugin to disable network on socket level.                                                                                                                       May 07, 2020    N/A                    N/A
    :pypi:`pytest-never-sleep`                       pytest plugin helps to avoid adding tests without mock \`time.sleep\`                                                                                                     May 05, 2021    3 - Alpha              pytest (>=3.5.1)
    :pypi:`pytest-nginx`                             nginx fixture for pytest                                                                                                                                                  Aug 12, 2017    5 - Production/Stable  N/A
@@ -573,27 +594,29 @@ This list contains 943 plugins.
    :pypi:`pytest-notion`                            A PyTest Reporter to send test runs to Notion.so                                                                                                                          Aug 07, 2019    N/A                    N/A
    :pypi:`pytest-nunit`                             A pytest plugin for generating NUnit3 test result XML output                                                                                                              Aug 04, 2020    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-ochrus`                            pytest results data-base and HTML reporter                                                                                                                                Feb 21, 2018    4 - Beta               N/A
-   :pypi:`pytest-odoo`                              py.test plugin to run Odoo tests                                                                                                                                          Aug 19, 2020    4 - Beta               pytest (>=2.9)
+   :pypi:`pytest-odoo`                              py.test plugin to run Odoo tests                                                                                                                                          Nov 04, 2021    4 - Beta               pytest (>=2.9)
    :pypi:`pytest-odoo-fixtures`                     Project description                                                                                                                                                       Jun 25, 2019    N/A                    N/A
    :pypi:`pytest-oerp`                              pytest plugin to test OpenERP modules                                                                                                                                     Feb 28, 2012    3 - Alpha              N/A
    :pypi:`pytest-ok`                                The ultimate pytest output plugin                                                                                                                                         Apr 01, 2019    4 - Beta               N/A
    :pypi:`pytest-only`                              Use @pytest.mark.only to run a single test                                                                                                                                Jan 19, 2020    N/A                    N/A
    :pypi:`pytest-oot`                               Run object-oriented tests in a simple format                                                                                                                              Sep 18, 2016    4 - Beta               N/A
    :pypi:`pytest-openfiles`                         Pytest plugin for detecting inadvertent open file handles                                                                                                                 Apr 16, 2020    3 - Alpha              pytest (>=4.6)
-   :pypi:`pytest-opentmi`                           pytest plugin for publish results to opentmi                                                                                                                              Oct 05, 2021    5 - Production/Stable  pytest (>=5.0)
-   :pypi:`pytest-operator`                          Fixtures for Operators                                                                                                                                                    Oct 26, 2021    N/A                    N/A
+   :pypi:`pytest-opentmi`                           pytest plugin for publish results to opentmi                                                                                                                              Nov 04, 2021    5 - Production/Stable  pytest (>=5.0)
+   :pypi:`pytest-operator`                          Fixtures for Operators                                                                                                                                                    Dec 06, 2021    N/A                    N/A
    :pypi:`pytest-optional`                          include/exclude values of fixtures in pytest                                                                                                                              Oct 07, 2015    N/A                    N/A
    :pypi:`pytest-optional-tests`                    Easy declaration of optional tests (i.e., that are not run by default)                                                                                                    Jul 09, 2019    4 - Beta               pytest (>=4.5.0)
    :pypi:`pytest-orchestration`                     A pytest plugin for orchestrating tests                                                                                                                                   Jul 18, 2019    N/A                    N/A
-   :pypi:`pytest-order`                             pytest plugin to run your tests in a specific order                                                                                                                       May 30, 2021    4 - Beta               pytest (>=5.0)
+   :pypi:`pytest-order`                             pytest plugin to run your tests in a specific order                                                                                                                       Jan 09, 2022    4 - Beta               pytest (>=5.0) ; python_version < "3.10"
    :pypi:`pytest-ordering`                          pytest plugin to run your tests in a specific order                                                                                                                       Nov 14, 2018    4 - Beta               pytest
    :pypi:`pytest-osxnotify`                         OS X notifications for py.test results.                                                                                                                                   May 15, 2015    N/A                    N/A
+   :pypi:`pytest-otel`                              pytest-otel report OpenTelemetry traces about test executed                                                                                                               Dec 16, 2021    N/A                    N/A
    :pypi:`pytest-pact`                              A simple plugin to use with pytest                                                                                                                                        Jan 07, 2019    4 - Beta               N/A
+   :pypi:`pytest-pahrametahrize`                    Parametrize your tests with a Boston accent.                                                                                                                              Nov 24, 2021    4 - Beta               pytest (>=6.0,<7.0)
    :pypi:`pytest-parallel`                          a pytest plugin for parallel and concurrent testing                                                                                                                       Oct 10, 2021    3 - Alpha              pytest (>=3.0.0)
    :pypi:`pytest-parallel-39`                       a pytest plugin for parallel and concurrent testing                                                                                                                       Jul 12, 2021    3 - Alpha              pytest (>=3.0.0)
    :pypi:`pytest-param`                             pytest plugin to test all, first, last or random params                                                                                                                   Sep 11, 2016    4 - Beta               pytest (>=2.6.0)
    :pypi:`pytest-paramark`                          Configure pytest fixtures using a combination of"parametrize" and markers                                                                                                 Jan 10, 2020    4 - Beta               pytest (>=4.5.0)
-   :pypi:`pytest-parametrization`                   Simpler PyTest parametrization                                                                                                                                            Jul 28, 2019    5 - Production/Stable  N/A
+   :pypi:`pytest-parametrization`                   Simpler PyTest parametrization                                                                                                                                            Nov 30, 2021    5 - Production/Stable  pytest
    :pypi:`pytest-parametrize-cases`                 A more user-friendly way to write parametrized tests.                                                                                                                     Dec 12, 2020    N/A                    pytest (>=6.1.2,<7.0.0)
    :pypi:`pytest-parametrized`                      Pytest plugin for parametrizing tests with default iterables.                                                                                                             Oct 19, 2020    5 - Production/Stable  pytest
    :pypi:`pytest-parawtf`                           Finally spell paramete?ri[sz]e correctly                                                                                                                                  Dec 03, 2018    4 - Beta               pytest (>=3.6.0)
@@ -606,10 +629,12 @@ This list contains 943 plugins.
    :pypi:`pytest-pep257`                            py.test plugin for pep257                                                                                                                                                 Jul 09, 2016    N/A                    N/A
    :pypi:`pytest-pep8`                              pytest plugin to check PEP8 requirements                                                                                                                                  Apr 27, 2014    N/A                    N/A
    :pypi:`pytest-percent`                           Change the exit code of pytest test sessions when a required percent of tests pass.                                                                                       May 21, 2020    N/A                    pytest (>=5.2.0)
-   :pypi:`pytest-perf`                              pytest-perf                                                                                                                                                               Jun 27, 2021    5 - Production/Stable  pytest (>=4.6) ; extra == 'testing'
+   :pypi:`pytest-perf`                              pytest-perf                                                                                                                                                               Jan 08, 2022    5 - Production/Stable  pytest (>=6) ; extra == 'testing'
    :pypi:`pytest-performance`                       A simple plugin to ensure the execution of critical sections of code has not been impacted                                                                                Sep 11, 2020    5 - Production/Stable  pytest (>=3.7.0)
-   :pypi:`pytest-persistence`                       Pytest tool for persistent objects                                                                                                                                        Oct 13, 2021    N/A                    N/A
+   :pypi:`pytest-persistence`                       Pytest tool for persistent objects                                                                                                                                        Dec 07, 2021    N/A                    N/A
+   :pypi:`pytest-pg`                                Helps to run PostgreSQL in docker as pytest fixture                                                                                                                       Jan 09, 2022    5 - Production/Stable  pytest (>=6.0.0)
    :pypi:`pytest-pgsql`                             Pytest plugins and helpers for tests using a Postgres database.                                                                                                           May 13, 2020    5 - Production/Stable  pytest (>=3.0.0)
+   :pypi:`pytest-phmdoctest`                        pytest plugin to test Python examples in Markdown using phmdoctest.                                                                                                       Nov 10, 2021    4 - Beta               pytest (>=6.2) ; extra == 'test'
    :pypi:`pytest-picked`                            Run the tests related to the changed files                                                                                                                                Dec 23, 2020    N/A                    pytest (>=3.5.0)
    :pypi:`pytest-pigeonhole`                                                                                                                                                                                                  Jun 25, 2018    5 - Production/Stable  pytest (>=3.4)
    :pypi:`pytest-pikachu`                           Show surprise when tests are passing                                                                                                                                      Aug 05, 2021    5 - Production/Stable  pytest
@@ -621,7 +646,8 @@ This list contains 943 plugins.
    :pypi:`pytest-platform-markers`                  Markers for pytest to skip tests on specific platforms                                                                                                                    Sep 09, 2019    4 - Beta               pytest (>=3.6.0)
    :pypi:`pytest-play`                              pytest plugin that let you automate actions and assertions with test metrics reporting executing plain YAML files                                                         Jun 12, 2019    5 - Production/Stable  N/A
    :pypi:`pytest-playbook`                          Pytest plugin for reading playbooks.                                                                                                                                      Jan 21, 2021    3 - Alpha              pytest (>=6.1.2,<7.0.0)
-   :pypi:`pytest-playwright`                        A pytest wrapper with fixtures for Playwright to automate web browsers                                                                                                    Oct 11, 2021    N/A                    pytest
+   :pypi:`pytest-playwright`                        A pytest wrapper with fixtures for Playwright to automate web browsers                                                                                                    Oct 28, 2021    N/A                    pytest
+   :pypi:`pytest-playwrights`                       A pytest wrapper with fixtures for Playwright to automate web browsers                                                                                                    Dec 02, 2021    N/A                    N/A
    :pypi:`pytest-playwright-snapshot`               A pytest wrapper for snapshot testing with playwright                                                                                                                     Aug 19, 2021    N/A                    N/A
    :pypi:`pytest-plt`                               Fixtures for quickly making Matplotlib plots in tests                                                                                                                     Aug 17, 2020    5 - Production/Stable  pytest
    :pypi:`pytest-plugin-helpers`                    A plugin to help developing and testing other plugins                                                                                                                     Nov 23, 2019    4 - Beta               pytest (>=3.5.0)
@@ -637,12 +663,14 @@ This list contains 943 plugins.
    :pypi:`pytest-pop`                               A pytest plugin to help with testing pop projects                                                                                                                         Aug 19, 2021    5 - Production/Stable  pytest
    :pypi:`pytest-portion`                           Select a portion of the collected tests                                                                                                                                   Jan 28, 2021    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-postgres`                          Run PostgreSQL in Docker container in Pytest.                                                                                                                             Mar 22, 2020    N/A                    pytest
-   :pypi:`pytest-postgresql`                        Postgresql fixtures and fixture factories for Pytest.                                                                                                                     Oct 20, 2021    5 - Production/Stable  pytest (>=3.0.0)
+   :pypi:`pytest-postgresql`                        Postgresql fixtures and fixture factories for Pytest.                                                                                                                     Dec 22, 2021    5 - Production/Stable  pytest (>=6.2.0)
    :pypi:`pytest-power`                             pytest plugin with powerful fixtures                                                                                                                                      Dec 31, 2020    N/A                    pytest (>=5.4)
+   :pypi:`pytest-pretty-terminal`                   pytest plugin for generating prettier terminal output                                                                                                                     Nov 24, 2021    N/A                    pytest (>=3.4.1)
    :pypi:`pytest-pride`                             Minitest-style test colors                                                                                                                                                Apr 02, 2016    3 - Alpha              N/A
-   :pypi:`pytest-print`                             pytest-print adds the printer fixture you can use to print messages to the user (directly to the pytest runner, not stdout)                                               Jun 17, 2021    5 - Production/Stable  pytest (>=6)
+   :pypi:`pytest-print`                             pytest-print adds the printer fixture you can use to print messages to the user (directly to the pytest runner, not stdout)                                               Dec 28, 2021    5 - Production/Stable  pytest (>=6)
+   :pypi:`pytest-profiles`                          pytest plugin for configuration profiles                                                                                                                                  Dec 09, 2021    4 - Beta               pytest (>=3.7.0)
    :pypi:`pytest-profiling`                         Profiling plugin for py.test                                                                                                                                              May 28, 2019    5 - Production/Stable  pytest
-   :pypi:`pytest-progress`                          pytest plugin for instant test progress status                                                                                                                            Oct 06, 2020    5 - Production/Stable  N/A
+   :pypi:`pytest-progress`                          pytest plugin for instant test progress status                                                                                                                            Nov 09, 2021    5 - Production/Stable  pytest (>=2.7)
    :pypi:`pytest-prometheus`                        Report test pass / failures to a Prometheus PushGateway                                                                                                                   Oct 03, 2017    N/A                    N/A
    :pypi:`pytest-prosper`                           Test helpers for Prosper projects                                                                                                                                         Sep 24, 2018    N/A                    N/A
    :pypi:`pytest-pspec`                             A rspec format reporter for Python ptest                                                                                                                                  Jun 02, 2020    4 - Beta               pytest (>=3.0.0)
@@ -667,8 +695,9 @@ This list contains 943 plugins.
    :pypi:`pytest-pytorch`                           pytest plugin for a better developer experience when working with the PyTorch test suite                                                                                  May 25, 2021    4 - Beta               pytest
    :pypi:`pytest-qasync`                            Pytest support for qasync.                                                                                                                                                Jul 12, 2021    4 - Beta               pytest (>=5.4.0)
    :pypi:`pytest-qatouch`                           Pytest plugin for uploading test results to your QA Touch Testrun.                                                                                                        Jun 26, 2021    4 - Beta               pytest (>=6.2.0)
-   :pypi:`pytest-qgis`                              A pytest plugin for testing QGIS python plugins                                                                                                                           Oct 08, 2021    5 - Production/Stable  pytest (>=6.2.3)
+   :pypi:`pytest-qgis`                              A pytest plugin for testing QGIS python plugins                                                                                                                           Dec 16, 2021    5 - Production/Stable  pytest (>=6.2.3)
    :pypi:`pytest-qml`                               Run QML Tests with pytest                                                                                                                                                 Dec 02, 2020    4 - Beta               pytest (>=6.0.0)
+   :pypi:`pytest-qr`                                pytest plugin to generate test result QR codes                                                                                                                            Nov 25, 2021    4 - Beta               N/A
    :pypi:`pytest-qt`                                pytest support for PyQt and PySide applications                                                                                                                           Jun 13, 2021    5 - Production/Stable  pytest (>=3.0.0)
    :pypi:`pytest-qt-app`                            QT app fixture for py.test                                                                                                                                                Dec 23, 2015    5 - Production/Stable  N/A
    :pypi:`pytest-quarantine`                        A plugin for pytest to manage expected test failures                                                                                                                      Nov 24, 2019    5 - Production/Stable  pytest (>=4.6)
@@ -676,36 +705,36 @@ This list contains 943 plugins.
    :pypi:`pytest-rabbitmq`                          RabbitMQ process and client fixtures for pytest                                                                                                                           Jun 02, 2021    5 - Production/Stable  pytest (>=3.0.0)
    :pypi:`pytest-race`                              Race conditions tester for pytest                                                                                                                                         Nov 21, 2016    4 - Beta               N/A
    :pypi:`pytest-rage`                              pytest plugin to implement PEP712                                                                                                                                         Oct 21, 2011    3 - Alpha              N/A
-   :pypi:`pytest-railflow-testrail-reporter`        Generate json reports along with specified metadata defined in test markers.                                                                                              Sep 02, 2021    5 - Production/Stable  pytest
+   :pypi:`pytest-railflow-testrail-reporter`        Generate json reports along with specified metadata defined in test markers.                                                                                              Dec 02, 2021    5 - Production/Stable  pytest
    :pypi:`pytest-raises`                            An implementation of pytest.raises as a pytest.mark fixture                                                                                                               Apr 23, 2020    N/A                    pytest (>=3.2.2)
    :pypi:`pytest-raisesregexp`                      Simple pytest plugin to look for regex in Exceptions                                                                                                                      Dec 18, 2015    N/A                    N/A
    :pypi:`pytest-raisin`                            Plugin enabling the use of exception instances with pytest.raises                                                                                                         Jun 25, 2020    N/A                    pytest
    :pypi:`pytest-random`                            py.test plugin to randomize tests                                                                                                                                         Apr 28, 2013    3 - Alpha              N/A
-   :pypi:`pytest-randomly`                          Pytest plugin to randomly order tests and control random.seed.                                                                                                            Aug 13, 2021    5 - Production/Stable  pytest
+   :pypi:`pytest-randomly`                          Pytest plugin to randomly order tests and control random.seed.                                                                                                            Jan 10, 2022    5 - Production/Stable  pytest
    :pypi:`pytest-randomness`                        Pytest plugin about random seed management                                                                                                                                May 30, 2019    3 - Alpha              N/A
    :pypi:`pytest-random-num`                        Randomise the order in which pytest tests are run with some control over the randomness                                                                                   Oct 19, 2020    5 - Production/Stable  N/A
    :pypi:`pytest-random-order`                      Randomise the order in which pytest tests are run with some control over the randomness                                                                                   Nov 30, 2018    5 - Production/Stable  pytest (>=3.0.0)
    :pypi:`pytest-readme`                            Test your README.md file                                                                                                                                                  Dec 28, 2014    5 - Production/Stable  N/A
-   :pypi:`pytest-reana`                             Pytest fixtures for REANA.                                                                                                                                                Sep 30, 2021    3 - Alpha              N/A
+   :pypi:`pytest-reana`                             Pytest fixtures for REANA.                                                                                                                                                Jan 05, 2022    3 - Alpha              N/A
    :pypi:`pytest-recording`                         A pytest plugin that allows you recording of network interactions via VCR.py                                                                                              Jul 08, 2021    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-recordings`                        Provides pytest plugins for reporting request/response traffic, screenshots, and more to ReportPortal                                                                     Aug 13, 2020    N/A                    N/A
-   :pypi:`pytest-redis`                             Redis fixtures and fixture factories for Pytest.                                                                                                                          May 25, 2021    5 - Production/Stable  pytest
+   :pypi:`pytest-redis`                             Redis fixtures and fixture factories for Pytest.                                                                                                                          Dec 07, 2021    5 - Production/Stable  pytest
    :pypi:`pytest-redislite`                         Pytest plugin for testing code using Redis                                                                                                                                Sep 19, 2021    4 - Beta               pytest
    :pypi:`pytest-redmine`                           Pytest plugin for redmine                                                                                                                                                 Mar 19, 2018    1 - Planning           N/A
    :pypi:`pytest-ref`                               A plugin to store reference files to ease regression testing                                                                                                              Nov 23, 2019    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-reference-formatter`               Conveniently run pytest with a dot-formatted test reference.                                                                                                              Oct 01, 2019    4 - Beta               N/A
-   :pypi:`pytest-regressions`                       Easy to use fixtures to write regression tests.                                                                                                                           Jan 27, 2021    5 - Production/Stable  pytest (>=3.5.0)
+   :pypi:`pytest-regressions`                       Easy to use fixtures to write regression tests.                                                                                                                           Jan 04, 2022    5 - Production/Stable  pytest (>=3.5.0)
    :pypi:`pytest-regtest`                           pytest plugin for regression tests                                                                                                                                        Jun 03, 2021    N/A                    N/A
    :pypi:`pytest-relative-order`                    a pytest plugin that sorts tests using "before" and "after" markers                                                                                                       May 17, 2021    4 - Beta               N/A
    :pypi:`pytest-relaxed`                           Relaxed test discovery/organization for pytest                                                                                                                            Jun 14, 2019    5 - Production/Stable  pytest (<5,>=3)
    :pypi:`pytest-remfiles`                          Pytest plugin to create a temporary directory with remote files                                                                                                           Jul 01, 2019    5 - Production/Stable  N/A
-   :pypi:`pytest-remotedata`                        Pytest plugin for controlling remote data access.                                                                                                                         Jul 20, 2019    3 - Alpha              pytest (>=3.1)
+   :pypi:`pytest-remotedata`                        Pytest plugin for controlling remote data access.                                                                                                                         Dec 21, 2021    3 - Alpha              pytest (>=4.6)
    :pypi:`pytest-remote-response`                   Pytest plugin for capturing and mocking connection requests.                                                                                                              Jun 30, 2021    4 - Beta               pytest (>=4.6)
    :pypi:`pytest-remove-stale-bytecode`             py.test plugin to remove stale byte code files.                                                                                                                           Mar 04, 2020    4 - Beta               pytest
    :pypi:`pytest-reorder`                           Reorder tests depending on their paths and names.                                                                                                                         May 31, 2018    4 - Beta               pytest
    :pypi:`pytest-repeat`                            pytest plugin for repeating tests                                                                                                                                         Oct 31, 2020    5 - Production/Stable  pytest (>=3.6)
    :pypi:`pytest-replay`                            Saves previous test runs and allow re-execute previous pytest runs to reproduce crashes or flaky tests                                                                    Jun 09, 2021    4 - Beta               pytest (>=3.0.0)
-   :pypi:`pytest-repo-health`                       A pytest plugin to report on repository standards conformance                                                                                                             Nov 03, 2020    3 - Alpha              pytest
+   :pypi:`pytest-repo-health`                       A pytest plugin to report on repository standards conformance                                                                                                             Dec 16, 2021    3 - Alpha              pytest
    :pypi:`pytest-report`                            Creates json report that is compatible with atom.io's linter message format                                                                                               May 11, 2016    4 - Beta               N/A
    :pypi:`pytest-reporter`                          Generate Pytest reports with templates                                                                                                                                    Jul 22, 2021    4 - Beta               pytest
    :pypi:`pytest-reporter-html1`                    A basic HTML report template for Pytest                                                                                                                                   Jun 08, 2021    4 - Beta               N/A
@@ -714,20 +743,21 @@ This list contains 943 plugins.
    :pypi:`pytest-reportlog`                         Replacement for the --resultlog option, focused in simplicity and extensibility                                                                                           Dec 11, 2020    3 - Alpha              pytest (>=5.2)
    :pypi:`pytest-report-me`                         A pytest plugin to generate report.                                                                                                                                       Dec 31, 2020    N/A                    pytest
    :pypi:`pytest-report-parameters`                 pytest plugin for adding tests' parameters to junit report                                                                                                                Jun 18, 2020    3 - Alpha              pytest (>=2.4.2)
-   :pypi:`pytest-reportportal`                      Agent for Reporting results of tests to the Report Portal                                                                                                                 Jun 18, 2021    N/A                    pytest (>=3.8.0)
+   :pypi:`pytest-reportportal`                      Agent for Reporting results of tests to the Report Portal                                                                                                                 Jan 11, 2022    N/A                    pytest (>=3.8.0)
    :pypi:`pytest-reqs`                              pytest plugin to check pinned requirements                                                                                                                                May 12, 2019    N/A                    pytest (>=2.4.2)
    :pypi:`pytest-requests`                          A simple plugin to use with pytest                                                                                                                                        Jun 24, 2019    4 - Beta               pytest (>=3.5.0)
+   :pypi:`pytest-requires`                          A pytest plugin to elegantly skip tests with optional requirements                                                                                                        Dec 21, 2021    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-reraise`                           Make multi-threaded pytest test cases fail when they should                                                                                                               Jun 17, 2021    5 - Production/Stable  pytest (>=4.6)
    :pypi:`pytest-rerun`                             Re-run only changed files in specified branch                                                                                                                             Jul 08, 2019    N/A                    pytest (>=3.6)
    :pypi:`pytest-rerunfailures`                     pytest plugin to re-run tests to eliminate flaky failures                                                                                                                 Sep 17, 2021    5 - Production/Stable  pytest (>=5.3)
-   :pypi:`pytest-resilient-circuits`                Resilient Circuits fixtures for PyTest.                                                                                                                                   Oct 13, 2021    N/A                    N/A
+   :pypi:`pytest-resilient-circuits`                Resilient Circuits fixtures for PyTest.                                                                                                                                   Nov 15, 2021    N/A                    N/A
    :pypi:`pytest-resource`                          Load resource fixture plugin to use with pytest                                                                                                                           Nov 14, 2018    4 - Beta               N/A
    :pypi:`pytest-resource-path`                     Provides path for uniform access to test resources in isolated directory                                                                                                  May 01, 2021    5 - Production/Stable  pytest (>=3.5.0)
    :pypi:`pytest-responsemock`                      Simplified requests calls mocking for pytest                                                                                                                              Oct 10, 2020    5 - Production/Stable  N/A
    :pypi:`pytest-responses`                         py.test integration for responses                                                                                                                                         Apr 26, 2021    N/A                    pytest (>=2.5)
-   :pypi:`pytest-restrict`                          Pytest plugin to restrict the test types allowed                                                                                                                          Aug 12, 2021    5 - Production/Stable  pytest
+   :pypi:`pytest-restrict`                          Pytest plugin to restrict the test types allowed                                                                                                                          Jan 10, 2022    5 - Production/Stable  pytest
    :pypi:`pytest-rethinkdb`                         A RethinkDB plugin for pytest.                                                                                                                                            Jul 24, 2016    4 - Beta               N/A
-   :pypi:`pytest-reverse`                           Pytest plugin to reverse test order.                                                                                                                                      Aug 12, 2021    5 - Production/Stable  pytest
+   :pypi:`pytest-reverse`                           Pytest plugin to reverse test order.                                                                                                                                      Jan 10, 2022    5 - Production/Stable  pytest
    :pypi:`pytest-ringo`                             pytest plugin to test webapplications using the Ringo webframework                                                                                                        Sep 27, 2017    3 - Alpha              N/A
    :pypi:`pytest-rng`                               Fixtures for seeding tests and making randomness reproducible                                                                                                             Aug 08, 2019    5 - Production/Stable  pytest
    :pypi:`pytest-roast`                             pytest plugin for ROAST configuration override and fixtures                                                                                                               Jul 29, 2021    5 - Production/Stable  pytest
@@ -735,7 +765,7 @@ This list contains 943 plugins.
    :pypi:`pytest-rotest`                            Pytest integration with rotest                                                                                                                                            Sep 08, 2019    N/A                    pytest (>=3.5.0)
    :pypi:`pytest-rpc`                               Extend py.test for RPC OpenStack testing.                                                                                                                                 Feb 22, 2019    4 - Beta               pytest (~=3.6)
    :pypi:`pytest-rst`                               Test code from RST documents with pytest                                                                                                                                  Sep 21, 2021    N/A                    pytest
-   :pypi:`pytest-rt`                                pytest data collector plugin for Testgr                                                                                                                                   Sep 04, 2021    N/A                    N/A
+   :pypi:`pytest-rt`                                pytest data collector plugin for Testgr                                                                                                                                   Dec 22, 2021    N/A                    N/A
    :pypi:`pytest-rts`                               Coverage-based regression test selection (RTS) plugin for pytest                                                                                                          May 17, 2021    N/A                    pytest
    :pypi:`pytest-run-changed`                       Pytest plugin that runs changed tests only                                                                                                                                Apr 02, 2021    3 - Alpha              pytest
    :pypi:`pytest-runfailed`                         implement a --failed option for pytest                                                                                                                                    Mar 24, 2016    N/A                    N/A
@@ -749,28 +779,28 @@ This list contains 943 plugins.
    :pypi:`pytest-sanic`                             a pytest plugin for Sanic                                                                                                                                                 Oct 25, 2021    N/A                    pytest (>=5.2)
    :pypi:`pytest-sanity`                                                                                                                                                                                                      Dec 07, 2020    N/A                    N/A
    :pypi:`pytest-sa-pg`                                                                                                                                                                                                       May 14, 2019    N/A                    N/A
-   :pypi:`pytest-sbase`                             A complete web automation framework for end-to-end testing.                                                                                                               Oct 26, 2021    5 - Production/Stable  N/A
+   :pypi:`pytest-sbase`                             A complete web automation framework for end-to-end testing.                                                                                                               Jan 12, 2022    5 - Production/Stable  N/A
    :pypi:`pytest-scenario`                          pytest plugin for test scenarios                                                                                                                                          Feb 06, 2017    3 - Alpha              N/A
    :pypi:`pytest-schema`                            👍 Validate return values against a schema-like object in testing                                                                                                         Aug 31, 2020    5 - Production/Stable  pytest (>=3.5.0)
-   :pypi:`pytest-securestore`                       An encrypted password store for use within pytest cases                                                                                                                   Jun 19, 2019    4 - Beta               N/A
+   :pypi:`pytest-securestore`                       An encrypted password store for use within pytest cases                                                                                                                   Nov 08, 2021    4 - Beta               N/A
    :pypi:`pytest-select`                            A pytest plugin which allows to (de-)select tests from a file.                                                                                                            Jan 18, 2019    3 - Alpha              pytest (>=3.0)
    :pypi:`pytest-selenium`                          pytest plugin for Selenium                                                                                                                                                Sep 19, 2020    5 - Production/Stable  pytest (>=5.0.0)
-   :pypi:`pytest-seleniumbase`                      A complete web automation framework for end-to-end testing.                                                                                                               Oct 26, 2021    5 - Production/Stable  N/A
-   :pypi:`pytest-selenium-enhancer`                 pytest plugin for Selenium                                                                                                                                                Nov 26, 2020    5 - Production/Stable  N/A
+   :pypi:`pytest-seleniumbase`                      A complete web automation framework for end-to-end testing.                                                                                                               Jan 12, 2022    5 - Production/Stable  N/A
+   :pypi:`pytest-selenium-enhancer`                 pytest plugin for Selenium                                                                                                                                                Dec 16, 2021    5 - Production/Stable  N/A
    :pypi:`pytest-selenium-pdiff`                    A pytest package implementing perceptualdiff for Selenium tests.                                                                                                          Apr 06, 2017    2 - Pre-Alpha          N/A
    :pypi:`pytest-send-email`                        Send pytest execution result email                                                                                                                                        Dec 04, 2019    N/A                    N/A
    :pypi:`pytest-sentry`                            A pytest plugin to send testrun information to Sentry.io                                                                                                                  Apr 21, 2021    N/A                    pytest
    :pypi:`pytest-server-fixtures`                   Extensible server fixures for py.test                                                                                                                                     May 28, 2019    5 - Production/Stable  pytest
-   :pypi:`pytest-serverless`                        Automatically mocks resources from serverless.yml in pytest using moto.                                                                                                   May 02, 2021    4 - Beta               N/A
+   :pypi:`pytest-serverless`                        Automatically mocks resources from serverless.yml in pytest using moto.                                                                                                   Nov 27, 2021    4 - Beta               N/A
    :pypi:`pytest-services`                          Services plugin for pytest testing framework                                                                                                                              Oct 30, 2020    6 - Mature             N/A
    :pypi:`pytest-session2file`                      pytest-session2file (aka: pytest-session_to_file for v0.1.0 - v0.1.2) is a py.test plugin for capturing and saving to file the stdout of py.test.                         Jan 26, 2021    3 - Alpha              pytest
    :pypi:`pytest-session-fixture-globalize`         py.test plugin to make session fixtures behave as if written in conftest, even if it is written in some modules                                                           May 15, 2018    4 - Beta               N/A
    :pypi:`pytest-session_to_file`                   pytest-session_to_file is a py.test plugin for capturing and saving to file the stdout of py.test.                                                                        Oct 01, 2015    3 - Alpha              N/A
    :pypi:`pytest-sftpserver`                        py.test plugin to locally test sftp server connections.                                                                                                                   Sep 16, 2019    4 - Beta               N/A
    :pypi:`pytest-shard`                                                                                                                                                                                                       Dec 11, 2020    4 - Beta               pytest
-   :pypi:`pytest-shell`                             A pytest plugin for testing shell scripts and line-based processes                                                                                                        Jan 18, 2020    N/A                    N/A
+   :pypi:`pytest-shell`                             A pytest plugin to help with testing shell scripts / black box commands                                                                                                   Nov 07, 2021    N/A                    N/A
    :pypi:`pytest-sheraf`                            Versatile ZODB abstraction layer - pytest fixtures                                                                                                                        Feb 11, 2020    N/A                    pytest
-   :pypi:`pytest-sherlock`                          pytest plugin help to find coupled tests                                                                                                                                  Jul 13, 2020    5 - Production/Stable  pytest (>=3.5.1)
+   :pypi:`pytest-sherlock`                          pytest plugin help to find coupled tests                                                                                                                                  Nov 18, 2021    5 - Production/Stable  pytest (>=3.5.1)
    :pypi:`pytest-shortcuts`                         Expand command-line shortcuts listed in pytest configuration                                                                                                              Oct 29, 2020    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-shutil`                            A goodie-bag of unix shell and environment tools for py.test                                                                                                              May 28, 2019    5 - Production/Stable  pytest
    :pypi:`pytest-simplehttpserver`                  Simple pytest fixture to spin up an HTTP server                                                                                                                           Jun 24, 2021    4 - Beta               N/A
@@ -788,12 +818,15 @@ This list contains 943 plugins.
    :pypi:`pytest-smtp`                              Send email with pytest execution result                                                                                                                                   Feb 20, 2021    N/A                    pytest
    :pypi:`pytest-snail`                             Plugin for adding a marker to slow running tests. 🐌                                                                                                                      Nov 04, 2019    3 - Alpha              pytest (>=5.0.1)
    :pypi:`pytest-snapci`                            py.test plugin for Snap-CI                                                                                                                                                Nov 12, 2015    N/A                    N/A
-   :pypi:`pytest-snapshot`                          A plugin for snapshot testing with pytest.                                                                                                                                Sep 16, 2021    4 - Beta               pytest (>=3.0.0)
+   :pypi:`pytest-snapshot`                          A plugin for snapshot testing with pytest.                                                                                                                                Dec 02, 2021    4 - Beta               pytest (>=3.0.0)
    :pypi:`pytest-snmpserver`                                                                                                                                                                                                  May 12, 2021    N/A                    N/A
-   :pypi:`pytest-socket`                            Pytest Plugin to disable socket calls during tests                                                                                                                        Aug 28, 2021    4 - Beta               pytest (>=3.6.3)
+   :pypi:`pytest-snowflake-bdd`                     Setup test data and run tests on snowflake in BDD style!                                                                                                                  Jan 05, 2022    4 - Beta               pytest (>=6.2.0)
+   :pypi:`pytest-socket`                            Pytest Plugin to disable socket calls during tests                                                                                                                        Dec 23, 2021    4 - Beta               pytest (>=3.6.3)
    :pypi:`pytest-soft-assertions`                                                                                                                                                                                             May 05, 2020    3 - Alpha              pytest
+   :pypi:`pytest-solidity`                          A PyTest library plugin for Solidity language.                                                                                                                            Jan 15, 2022    1 - Planning           pytest (<7,>=6.0.1) ; extra == 'tests'
    :pypi:`pytest-solr`                              Solr process and client fixtures for py.test.                                                                                                                             May 11, 2020    3 - Alpha              pytest (>=3.0.0)
    :pypi:`pytest-sorter`                            A simple plugin to first execute tests that historically failed more                                                                                                      Apr 20, 2021    4 - Beta               pytest (>=3.1.1)
+   :pypi:`pytest-sosu`                              Unofficial PyTest plugin for Sauce Labs                                                                                                                                   Dec 20, 2021    2 - Pre-Alpha          pytest
    :pypi:`pytest-sourceorder`                       Test-ordering plugin for pytest                                                                                                                                           Sep 01, 2021    4 - Beta               pytest
    :pypi:`pytest-spark`                             pytest plugin to run the tests with support of pyspark.                                                                                                                   Feb 23, 2020    4 - Beta               pytest
    :pypi:`pytest-spawner`                           py.test plugin to spawn process and communicate with them.                                                                                                                Jul 31, 2015    4 - Beta               N/A
@@ -801,12 +834,13 @@ This list contains 943 plugins.
    :pypi:`pytest-sphinx`                            Doctest plugin for pytest with support for Sphinx-specific doctest-directives                                                                                             Aug 05, 2020    4 - Beta               N/A
    :pypi:`pytest-spiratest`                         Exports unit tests as test runs in SpiraTest/Team/Plan                                                                                                                    Oct 13, 2021    N/A                    N/A
    :pypi:`pytest-splinter`                          Splinter plugin for pytest testing framework                                                                                                                              Dec 25, 2020    6 - Mature             N/A
-   :pypi:`pytest-split`                             Pytest plugin for splitting test suite based on test execution time                                                                                                       Aug 06, 2021    4 - Beta               pytest (>=5,<7)
+   :pypi:`pytest-splinter4`                         Pytest plugin for the splinter automation library                                                                                                                         Dec 22, 2021    6 - Mature             pytest (>=6.2.4)
+   :pypi:`pytest-split`                             Pytest plugin which splits the test suite to equally sized sub suites based on test execution time.                                                                       Jan 10, 2022    4 - Beta               pytest (>=5,<7)
    :pypi:`pytest-splitio`                           Split.io SDK integration for e2e tests                                                                                                                                    Sep 22, 2020    N/A                    pytest (<7,>=5.0)
    :pypi:`pytest-split-tests`                       A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups. Forked from Mark Adams' original project pytest-test-groups.             Jul 30, 2021    5 - Production/Stable  pytest (>=2.5)
    :pypi:`pytest-split-tests-tresorit`                                                                                                                                                                                        Feb 22, 2021    1 - Planning           N/A
-   :pypi:`pytest-splunk-addon`                      A Dynamic test tool for Splunk Apps and Add-ons                                                                                                                           Oct 08, 2021    N/A                    pytest (>5.4.0,<6.3)
-   :pypi:`pytest-splunk-addon-ui-smartx`            Library to support testing Splunk Add-on UX                                                                                                                               Oct 07, 2021    N/A                    N/A
+   :pypi:`pytest-splunk-addon`                      A Dynamic test tool for Splunk Apps and Add-ons                                                                                                                           Dec 17, 2021    N/A                    pytest (>5.4.0,<6.3)
+   :pypi:`pytest-splunk-addon-ui-smartx`            Library to support testing Splunk Add-on UX                                                                                                                               Dec 06, 2021    N/A                    N/A
    :pypi:`pytest-splunk-env`                        pytest fixtures for interaction with Splunk Enterprise and Splunk Cloud                                                                                                   Oct 22, 2020    N/A                    pytest (>=6.1.1,<7.0.0)
    :pypi:`pytest-sqitch`                            sqitch for pytest                                                                                                                                                         Apr 06, 2020    4 - Beta               N/A
    :pypi:`pytest-sqlalchemy`                        pytest plugin with sqlalchemy related fixtures                                                                                                                            Mar 13, 2018    3 - Alpha              N/A
@@ -825,16 +859,18 @@ This list contains 943 plugins.
    :pypi:`pytest-stub`                              Stub packages, modules and attributes.                                                                                                                                    Apr 28, 2020    5 - Production/Stable  N/A
    :pypi:`pytest-stubprocess`                       Provide stub implementations for subprocesses in Python tests                                                                                                             Sep 17, 2018    3 - Alpha              pytest (>=3.5.0)
    :pypi:`pytest-study`                             A pytest plugin to organize long run tests (named studies) without interfering the regular tests                                                                          Sep 26, 2017    3 - Alpha              pytest (>=2.0)
-   :pypi:`pytest-subprocess`                        A plugin to fake subprocess for pytest                                                                                                                                    Oct 24, 2021    5 - Production/Stable  pytest (>=4.0.0)
+   :pypi:`pytest-subprocess`                        A plugin to fake subprocess for pytest                                                                                                                                    Nov 07, 2021    5 - Production/Stable  pytest (>=4.0.0)
    :pypi:`pytest-subtesthack`                       A hack to explicitly set up and tear down fixtures.                                                                                                                       Mar 02, 2021    N/A                    N/A
-   :pypi:`pytest-subtests`                          unittest subTest() support and subtests fixture                                                                                                                           May 29, 2021    4 - Beta               pytest (>=5.3.0)
+   :pypi:`pytest-subtests`                          unittest subTest() support and subtests fixture                                                                                                                           Jan 15, 2022    4 - Beta               pytest (>=6.0)
    :pypi:`pytest-subunit`                           pytest-subunit is a plugin for py.test which outputs testsresult in subunit format.                                                                                       Aug 29, 2017    N/A                    N/A
    :pypi:`pytest-sugar`                             pytest-sugar is a plugin for pytest that changes the default look and feel of pytest (e.g. progressbar, show tests that fail instantly).                                  Jul 06, 2020    3 - Alpha              N/A
    :pypi:`pytest-sugar-bugfix159`                   Workaround for https://github.com/Frozenball/pytest-sugar/issues/159                                                                                                      Nov 07, 2018    5 - Production/Stable  pytest (!=3.7.3,>=3.5); extra == 'testing'
-   :pypi:`pytest-super-check`                       Pytest plugin to check your TestCase classes call super in setUp, tearDown, etc.                                                                                          Aug 12, 2021    5 - Production/Stable  pytest
+   :pypi:`pytest-super-check`                       Pytest plugin to check your TestCase classes call super in setUp, tearDown, etc.                                                                                          Jan 10, 2022    5 - Production/Stable  pytest
    :pypi:`pytest-svn`                               SVN repository fixture for py.test                                                                                                                                        May 28, 2019    5 - Production/Stable  pytest
    :pypi:`pytest-symbols`                           pytest-symbols is a pytest plugin that adds support for passing test environment symbols into pytest tests.                                                               Nov 20, 2017    3 - Alpha              N/A
-   :pypi:`pytest-takeltest`                         Fixtures for ansible, testinfra and molecule                                                                                                                              Oct 13, 2021    N/A                    N/A
+   :pypi:`pytest-system-statistics`                 Pytest plugin to track and report system usage statistics                                                                                                                 Jan 05, 2022    4 - Beta               pytest (>=6.0.0)
+   :pypi:`pytest-takeltest`                         Fixtures for ansible, testinfra and molecule                                                                                                                              Jan 04, 2022    N/A                    N/A
+   :pypi:`pytest-talisker`                                                                                                                                                                                                    Nov 28, 2021    N/A                    N/A
    :pypi:`pytest-tap`                               Test Anything Protocol (TAP) reporting plugin for pytest                                                                                                                  Oct 27, 2021    5 - Production/Stable  pytest (>=3.0)
    :pypi:`pytest-tape`                              easy assertion with expected results saved to yaml files                                                                                                                  Mar 17, 2021    4 - Beta               N/A
    :pypi:`pytest-target`                            Pytest plugin for remote target orchestration.                                                                                                                            Jan 21, 2021    3 - Alpha              pytest (>=6.1.2,<7.0.0)
@@ -842,45 +878,48 @@ This list contains 943 plugins.
    :pypi:`pytest-teamcity-logblock`                 py.test plugin to introduce block structure in teamcity build log, if output is not captured                                                                              May 15, 2018    4 - Beta               N/A
    :pypi:`pytest-telegram`                          Pytest to Telegram reporting plugin                                                                                                                                       Dec 10, 2020    5 - Production/Stable  N/A
    :pypi:`pytest-tempdir`                           Predictable and repeatable tempdir support.                                                                                                                               Oct 11, 2019    4 - Beta               pytest (>=2.8.1)
-   :pypi:`pytest-terraform`                         A pytest plugin for using terraform fixtures                                                                                                                              Apr 25, 2021    N/A                    pytest (>=6.0,<7.0)
+   :pypi:`pytest-terraform`                         A pytest plugin for using terraform fixtures                                                                                                                              Nov 10, 2021    N/A                    pytest (>=6.0)
    :pypi:`pytest-terraform-fixture`                 generate terraform resources to use with pytest                                                                                                                           Nov 14, 2018    4 - Beta               N/A
    :pypi:`pytest-testbook`                          A plugin to run tests written in Jupyter notebook                                                                                                                         Dec 11, 2016    3 - Alpha              N/A
    :pypi:`pytest-testconfig`                        Test configuration plugin for pytest.                                                                                                                                     Jan 11, 2020    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-testdirectory`                     A py.test plugin providing temporary directories in unit tests.                                                                                                           Nov 06, 2018    5 - Production/Stable  pytest
-   :pypi:`pytest-testdox`                           A testdox format reporter for pytest                                                                                                                                      Oct 13, 2020    5 - Production/Stable  pytest (>=3.7.0)
+   :pypi:`pytest-testdox`                           A testdox format reporter for pytest                                                                                                                                      Dec 05, 2021    5 - Production/Stable  pytest (>=4.6.0)
    :pypi:`pytest-test-groups`                       A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups.                                                                          Oct 25, 2016    5 - Production/Stable  N/A
-   :pypi:`pytest-testinfra`                         Test infrastructures                                                                                                                                                      Jun 20, 2021    5 - Production/Stable  pytest (!=3.0.2)
+   :pypi:`pytest-testinfra`                         Test infrastructures                                                                                                                                                      Dec 07, 2021    5 - Production/Stable  pytest (!=3.0.2)
    :pypi:`pytest-testlink-adaptor`                  pytest reporting plugin for testlink                                                                                                                                      Dec 20, 2018    4 - Beta               pytest (>=2.6)
    :pypi:`pytest-testmon`                           selects tests affected by changed files and methods                                                                                                                       Oct 22, 2021    4 - Beta               N/A
    :pypi:`pytest-testobject`                        Plugin to use TestObject Suites with Pytest                                                                                                                               Sep 24, 2019    4 - Beta               pytest (>=3.1.1)
+   :pypi:`pytest-testpluggy`                        set your encoding                                                                                                                                                         Jan 07, 2022    N/A                    pytest
    :pypi:`pytest-testrail`                          pytest plugin for creating TestRail runs and adding results                                                                                                               Aug 27, 2020    N/A                    pytest (>=3.6)
    :pypi:`pytest-testrail2`                         A small example package                                                                                                                                                   Nov 17, 2020    N/A                    pytest (>=5)
-   :pypi:`pytest-testrail-api`                      Плагин Pytest, для интеграции с TestRail                                                                                                                                  Jun 23, 2021    N/A                    pytest (>=5.5)
-   :pypi:`pytest-testrail-api-client`               TestRail Api Python Client                                                                                                                                                Oct 25, 2021    N/A                    pytest
+   :pypi:`pytest-testrail-api`                      Плагин Pytest, для интеграции с TestRail                                                                                                                                  Dec 17, 2021    N/A                    pytest (>=5.5)
+   :pypi:`pytest-testrail-api-client`               TestRail Api Python Client                                                                                                                                                Dec 14, 2021    N/A                    pytest
    :pypi:`pytest-testrail-appetize`                 pytest plugin for creating TestRail runs and adding results                                                                                                               Sep 29, 2021    N/A                    N/A
    :pypi:`pytest-testrail-client`                   pytest plugin for Testrail                                                                                                                                                Sep 29, 2020    5 - Production/Stable  N/A
    :pypi:`pytest-testrail-e2e`                      pytest plugin for creating TestRail runs and adding results                                                                                                               Oct 11, 2021    N/A                    pytest (>=3.6)
    :pypi:`pytest-testrail-ns`                       pytest plugin for creating TestRail runs and adding results                                                                                                               Oct 08, 2021    N/A                    pytest (>=3.6)
    :pypi:`pytest-testrail-plugin`                   PyTest plugin for TestRail                                                                                                                                                Apr 21, 2020    3 - Alpha              pytest
    :pypi:`pytest-testrail-reporter`                                                                                                                                                                                           Sep 10, 2018    N/A                    N/A
-   :pypi:`pytest-testreport`                                                                                                                                                                                                  Jul 01, 2021    4 - Beta               pytest (>=3.5.0)
+   :pypi:`pytest-testreport`                                                                                                                                                                                                  Nov 12, 2021    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-testslide`                         TestSlide fixture for pytest                                                                                                                                              Jan 07, 2021    5 - Production/Stable  pytest (~=6.2)
    :pypi:`pytest-test-this`                         Plugin for py.test to run relevant tests, based on naively checking if a test contains a reference to the symbol you supply                                               Sep 15, 2019    2 - Pre-Alpha          pytest (>=2.3)
-   :pypi:`pytest-tesults`                           Tesults plugin for pytest                                                                                                                                                 Jul 31, 2021    5 - Production/Stable  pytest (>=3.5.0)
+   :pypi:`pytest-test-utils`                                                                                                                                                                                                  Dec 14, 2021    N/A                    pytest (>=5)
+   :pypi:`pytest-tesults`                           Tesults plugin for pytest                                                                                                                                                 Dec 31, 2021    5 - Production/Stable  pytest (>=3.5.0)
    :pypi:`pytest-tezos`                             pytest-ligo                                                                                                                                                               Jan 16, 2020    4 - Beta               N/A
    :pypi:`pytest-thawgun`                           Pytest plugin for time travel                                                                                                                                             May 26, 2020    3 - Alpha              N/A
    :pypi:`pytest-threadleak`                        Detects thread leaks                                                                                                                                                      Sep 08, 2017    4 - Beta               N/A
    :pypi:`pytest-tick`                              Ticking on tests                                                                                                                                                          Aug 31, 2021    5 - Production/Stable  pytest (>=6.2.5,<7.0.0)
    :pypi:`pytest-timeit`                            A pytest plugin to time test function runs                                                                                                                                Oct 13, 2016    4 - Beta               N/A
-   :pypi:`pytest-timeout`                           pytest plugin to abort hanging tests                                                                                                                                      Oct 11, 2021    5 - Production/Stable  pytest (>=5.0.0)
+   :pypi:`pytest-timeout`                           pytest plugin to abort hanging tests                                                                                                                                      Dec 13, 2021    5 - Production/Stable  pytest (>=5.0.0)
    :pypi:`pytest-timeouts`                          Linux-only Pytest plugin to control durations of various test case execution phases                                                                                       Sep 21, 2019    5 - Production/Stable  N/A
    :pypi:`pytest-timer`                             A timer plugin for pytest                                                                                                                                                 Jun 02, 2021    N/A                    N/A
    :pypi:`pytest-timestamper`                       Pytest plugin to add a timestamp prefix to the pytest output                                                                                                              Jun 06, 2021    N/A                    N/A
-   :pypi:`pytest-tipsi-django`                                                                                                                                                                                                Oct 14, 2020    4 - Beta               pytest (>=6.0.0)
+   :pypi:`pytest-timestamps`                        A simple plugin to view timestamps for each test                                                                                                                          Jan 14, 2022    N/A                    pytest (>=5.2)
+   :pypi:`pytest-tipsi-django`                                                                                                                                                                                                Nov 17, 2021    4 - Beta               pytest (>=6.0.0)
    :pypi:`pytest-tipsi-testing`                     Better fixtures management. Various helpers                                                                                                                               Nov 04, 2020    4 - Beta               pytest (>=3.3.0)
    :pypi:`pytest-tldr`                              A pytest plugin that limits the output to just the things you need.                                                                                                       Mar 12, 2021    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-tm4j-reporter`                     Cloud Jira Test Management (TM4J) PyTest reporter plugin                                                                                                                  Sep 01, 2020    N/A                    pytest
-   :pypi:`pytest-tmreport`                          this is a vue-element ui report for pytest                                                                                                                                Aug 16, 2021    N/A                    N/A
+   :pypi:`pytest-tmreport`                          this is a vue-element ui report for pytest                                                                                                                                Nov 17, 2021    N/A                    N/A
    :pypi:`pytest-todo`                              A small plugin for the pytest testing framework, marking TODO comments as failure                                                                                         May 23, 2019    4 - Beta               pytest
    :pypi:`pytest-tomato`                                                                                                                                                                                                      Mar 01, 2019    5 - Production/Stable  N/A
    :pypi:`pytest-toolbelt`                          This is just a collection of utilities for pytest, but don't really belong in pytest proper.                                                                              Aug 12, 2019    3 - Alpha              N/A
@@ -890,7 +929,7 @@ This list contains 943 plugins.
    :pypi:`pytest-tornado-yen3`                      A py.test plugin providing fixtures and markers to simplify testing of asynchronous tornado applications.                                                                 Oct 15, 2018    5 - Production/Stable  N/A
    :pypi:`pytest-tornasync`                         py.test plugin for testing Python 3.5+ Tornado code                                                                                                                       Jul 15, 2019    3 - Alpha              pytest (>=3.0)
    :pypi:`pytest-track`                                                                                                                                                                                                       Feb 26, 2021    3 - Alpha              pytest (>=3.0)
-   :pypi:`pytest-translations`                      Test your translation files.                                                                                                                                              Mar 30, 2021    5 - Production/Stable  N/A
+   :pypi:`pytest-translations`                      Test your translation files.                                                                                                                                              Nov 05, 2021    5 - Production/Stable  N/A
    :pypi:`pytest-travis-fold`                       Folds captured output sections in Travis CI build log                                                                                                                     Nov 29, 2017    4 - Beta               pytest (>=2.6.0)
    :pypi:`pytest-trello`                            Plugin for py.test that integrates trello using markers                                                                                                                   Nov 20, 2015    5 - Production/Stable  N/A
    :pypi:`pytest-trepan`                            Pytest plugin for trepan debugger.                                                                                                                                        Jul 28, 2018    5 - Production/Stable  N/A
@@ -899,7 +938,7 @@ This list contains 943 plugins.
    :pypi:`pytest-tspwplib`                          A simple plugin to use with tspwplib                                                                                                                                      Jan 08, 2021    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-tstcls`                            Test Class Base                                                                                                                                                           Mar 23, 2020    5 - Production/Stable  N/A
    :pypi:`pytest-twisted`                           A twisted plugin for pytest.                                                                                                                                              Aug 30, 2021    5 - Production/Stable  pytest (>=2.3)
-   :pypi:`pytest-typhoon-xray`                      Typhoon HIL plugin for pytest                                                                                                                                             Aug 27, 2021    4 - Beta               N/A
+   :pypi:`pytest-typhoon-xray`                      Typhoon HIL plugin for pytest                                                                                                                                             Nov 03, 2021    4 - Beta               N/A
    :pypi:`pytest-tytest`                            Typhoon HIL plugin for pytest                                                                                                                                             May 25, 2020    4 - Beta               pytest (>=5.4.2)
    :pypi:`pytest-ubersmith`                         Easily mock calls to ubersmith at the \`requests\` level.                                                                                                                 Apr 13, 2015    N/A                    N/A
    :pypi:`pytest-ui`                                Text User Interface for running python tests                                                                                                                              Jul 05, 2021    4 - Beta               pytest
@@ -908,7 +947,7 @@ This list contains 943 plugins.
    :pypi:`pytest-unmarked`                          Run only unmarked tests                                                                                                                                                   Aug 27, 2019    5 - Production/Stable  N/A
    :pypi:`pytest-unordered`                         Test equality of unordered collections in pytest                                                                                                                          Mar 28, 2021    4 - Beta               N/A
    :pypi:`pytest-upload-report`                     pytest-upload-report is a plugin for pytest that upload your test report for test results.                                                                                Jun 18, 2021    5 - Production/Stable  N/A
-   :pypi:`pytest-utils`                             Some helpers for pytest.                                                                                                                                                  Sep 22, 2021    N/A                    pytest
+   :pypi:`pytest-utils`                             Some helpers for pytest.                                                                                                                                                  Dec 04, 2021    4 - Beta               pytest (>=6.2.5,<7.0.0)
    :pypi:`pytest-vagrant`                           A py.test plugin providing access to vagrant.                                                                                                                             Sep 07, 2021    5 - Production/Stable  pytest
    :pypi:`pytest-valgrind`                                                                                                                                                                                                    May 19, 2021    N/A                    N/A
    :pypi:`pytest-variables`                         pytest plugin for providing variables to tests/fixtures                                                                                                                   Oct 23, 2019    5 - Production/Stable  pytest (>=2.4.2)
@@ -928,7 +967,7 @@ This list contains 943 plugins.
    :pypi:`pytest-vyper`                             Plugin for the vyper smart contract language.                                                                                                                             May 28, 2020    2 - Pre-Alpha          N/A
    :pypi:`pytest-wa-e2e-plugin`                     Pytest plugin for testing whatsapp bots with end to end tests                                                                                                             Feb 18, 2020    4 - Beta               pytest (>=3.5.0)
    :pypi:`pytest-watch`                             Local continuous test runner with pytest and watchdog.                                                                                                                    May 20, 2018    N/A                    N/A
-   :pypi:`pytest-watcher`                           Continiously runs pytest on changes in \*.py files                                                                                                                        Sep 18, 2021    3 - Alpha              N/A
+   :pypi:`pytest-watcher`                           Continiously runs pytest on changes in \*.py files                                                                                                                        Dec 30, 2021    3 - Alpha              N/A
    :pypi:`pytest-wdl`                               Pytest plugin for testing WDL workflows.                                                                                                                                  Nov 17, 2020    5 - Production/Stable  N/A
    :pypi:`pytest-webdriver`                         Selenium webdriver fixture for py.test                                                                                                                                    May 28, 2019    5 - Production/Stable  pytest
    :pypi:`pytest-wetest`                            Welian API Automation test framework pytest plugin                                                                                                                        Nov 10, 2018    4 - Beta               N/A
@@ -936,11 +975,12 @@ This list contains 943 plugins.
    :pypi:`pytest-wholenodeid`                       pytest addon for displaying the whole node id for failures                                                                                                                Aug 26, 2015    4 - Beta               pytest (>=2.0)
    :pypi:`pytest-win32consoletitle`                 Pytest progress in console title (Win32 only)                                                                                                                             Aug 08, 2021    N/A                    N/A
    :pypi:`pytest-winnotify`                         Windows tray notifications for py.test results.                                                                                                                           Apr 22, 2016    N/A                    N/A
-   :pypi:`pytest-workflow`                          A pytest plugin for configuring workflow/pipeline tests using YAML files                                                                                                  Dec 14, 2020    5 - Production/Stable  pytest (>=5.4.0)
-   :pypi:`pytest-xdist`                             pytest xdist plugin for distributed testing and loop-on-failing modes                                                                                                     Sep 21, 2021    5 - Production/Stable  pytest (>=6.0.0)
+   :pypi:`pytest-with-docker`                       pytest with docker helpers.                                                                                                                                               Nov 09, 2021    N/A                    pytest
+   :pypi:`pytest-workflow`                          A pytest plugin for configuring workflow/pipeline tests using YAML files                                                                                                  Dec 03, 2021    5 - Production/Stable  pytest (>=5.4.0)
+   :pypi:`pytest-xdist`                             pytest xdist plugin for distributed testing and loop-on-failing modes                                                                                                     Dec 10, 2021    5 - Production/Stable  pytest (>=6.2.0)
    :pypi:`pytest-xdist-debug-for-graingert`         pytest xdist plugin for distributed testing and loop-on-failing modes                                                                                                     Jul 24, 2019    5 - Production/Stable  pytest (>=4.4.0)
    :pypi:`pytest-xdist-forked`                      forked from pytest-xdist                                                                                                                                                  Feb 10, 2020    5 - Production/Stable  pytest (>=4.4.0)
-   :pypi:`pytest-xdist-tracker`                     pytest plugin helps to reproduce failures for particular xdist node                                                                                                       May 05, 2021    3 - Alpha              pytest (>=3.5.1)
+   :pypi:`pytest-xdist-tracker`                     pytest plugin helps to reproduce failures for particular xdist node                                                                                                       Nov 18, 2021    3 - Alpha              pytest (>=3.5.1)
    :pypi:`pytest-xfaillist`                         Maintain a xfaillist in an additional file to avoid merge-conflicts.                                                                                                      Sep 17, 2021    N/A                    pytest (>=6.2.2,<7.0.0)
    :pypi:`pytest-xfiles`                            Pytest fixtures providing data read from function, module or package related (x)files.                                                                                    Feb 27, 2018    N/A                    N/A
    :pypi:`pytest-xlog`                              Extended logging for test and decorators                                                                                                                                  May 31, 2020    4 - Beta               N/A
@@ -959,7 +999,7 @@ This list contains 943 plugins.
    :pypi:`pytest-yuk`                               Display tests you are uneasy with, using 🤢/🤮 for pass/fail of tests marked with yuk.                                                                                    Mar 26, 2021    N/A                    N/A
    :pypi:`pytest-zafira`                            A Zafira plugin for pytest                                                                                                                                                Sep 18, 2019    5 - Production/Stable  pytest (==4.1.1)
    :pypi:`pytest-zap`                               OWASP ZAP plugin for py.test.                                                                                                                                             May 12, 2014    4 - Beta               N/A
-   :pypi:`pytest-zebrunner`                         Pytest connector for Zebrunner reporting                                                                                                                                  Oct 19, 2021    5 - Production/Stable  pytest (>=6.0.0,<7.0.0)
+   :pypi:`pytest-zebrunner`                         Pytest connector for Zebrunner reporting                                                                                                                                  Dec 02, 2021    5 - Production/Stable  pytest (>=4.5.0)
    :pypi:`pytest-zigzag`                            Extend py.test for RPC OpenStack testing.                                                                                                                                 Feb 27, 2019    4 - Beta               pytest (~=3.6)
    ===============================================  ========================================================================================================================================================================  ==============  =====================  ================================================
 
@@ -967,16 +1007,16 @@ This list contains 943 plugins.
 
 
   :pypi:`pytest-accept`
-     *last release*: Sep 06, 2021,
+     *last release*: Jan 07, 2022,
      *status*: N/A,
-     *requires*: pytest (>=6,<7)
+     *requires*: pytest (>=6,<8)
 
      A pytest-plugin for updating doctest outputs
 
   :pypi:`pytest-adaptavist`
-     *last release*: Aug 24, 2021,
+     *last release*: Nov 30, 2021,
      *status*: N/A,
-     *requires*: pytest (>=3.4.1)
+     *requires*: pytest (>=5.4.0)
 
      pytest plugin for generating test execution results within Jira Test Management (tm4j)
 
@@ -1000,6 +1040,13 @@ This list contains 943 plugins.
      *requires*: pytest (>=3.5.0)
 
      Pytest plugin for writing Azure Data Factory integration tests
+
+  :pypi:`pytest-agent`
+     *last release*: Nov 25, 2021,
+     *status*: N/A,
+     *requires*: N/A
+
+     Service that exposes a REST API that can be used to interract remotely with Pytest. It is shipped with a dashboard that enables running tests in a more convenient way.
 
   :pypi:`pytest-aggreport`
      *last release*: Mar 07, 2021,
@@ -1036,6 +1083,13 @@ This list contains 943 plugins.
 
      Pytest \`client\` fixture for the Aiohttp
 
+  :pypi:`pytest-aiomoto`
+     *last release*: Dec 10, 2021,
+     *status*: N/A,
+     *requires*: pytest (>=6.2.5,<7.0.0)
+
+     pytest-aiomoto
+
   :pypi:`pytest-aioresponses`
      *last release*: Jul 29, 2021,
      *status*: 4 - Beta,
@@ -1057,8 +1111,15 @@ This list contains 943 plugins.
 
      pytest support for airflow.
 
+  :pypi:`pytest-airflow-utils`
+     *last release*: Nov 15, 2021,
+     *status*: N/A,
+     *requires*: N/A
+
+
+
   :pypi:`pytest-alembic`
-     *last release*: Sep 03, 2021,
+     *last release*: Dec 21, 2021,
      *status*: N/A,
      *requires*: pytest (>=1.0)
 
@@ -1100,8 +1161,8 @@ This list contains 943 plugins.
      The pytest plugin aimed to display test coverage of the specs(requirements) in Allure
 
   :pypi:`pytest-alphamoon`
-     *last release*: Oct 21, 2021,
-     *status*: 4 - Beta,
+     *last release*: Dec 30, 2021,
+     *status*: 5 - Production/Stable,
      *requires*: pytest (>=3.5.0)
 
      Static code checks used at Alphamoon
@@ -1121,9 +1182,9 @@ This list contains 943 plugins.
      A pytest plugin for testing Anki add-ons
 
   :pypi:`pytest-annotate`
-     *last release*: Aug 23, 2019,
+     *last release*: Nov 29, 2021,
      *status*: 3 - Alpha,
-     *requires*: pytest (<6.0.0,>=3.2.0)
+     *requires*: pytest (<7.0.0,>=3.2.0)
 
      pytest-annotate: Generate PyAnnotate annotations from your pytest tests.
 
@@ -1170,9 +1231,9 @@ This list contains 943 plugins.
      Pytest fixtures to assert anything and something
 
   :pypi:`pytest-aoc`
-     *last release*: Dec 01, 2020,
+     *last release*: Nov 23, 2021,
      *status*: N/A,
-     *requires*: pytest ; extra == 'dev'
+     *requires*: pytest ; extra == 'test'
 
      Downloads puzzle inputs for Advent of Code and synthesizes PyTest fixtures
 
@@ -1219,9 +1280,9 @@ This list contains 943 plugins.
      pyest results colection plugin
 
   :pypi:`pytest-arraydiff`
-     *last release*: Dec 06, 2018,
+     *last release*: Jan 13, 2022,
      *status*: 4 - Beta,
-     *requires*: pytest
+     *requires*: pytest (>=4.6)
 
      pytest plugin to help with comparing array output from tests
 
@@ -1275,9 +1336,9 @@ This list contains 943 plugins.
      Meta-package containing dependencies for testing
 
   :pypi:`pytest-astropy-header`
-     *last release*: Dec 18, 2019,
+     *last release*: Dec 27, 2021,
      *status*: 3 - Alpha,
-     *requires*: pytest (>=2.8)
+     *requires*: pytest (>=4.6)
 
      pytest plugin to add diagnostic information to the header of the test output
 
@@ -1289,15 +1350,15 @@ This list contains 943 plugins.
 
 
   :pypi:`pytest-asyncio`
-     *last release*: Oct 15, 2021,
+     *last release*: Jan 13, 2022,
      *status*: 4 - Beta,
      *requires*: pytest (>=5.4.0)
 
-     Pytest support for asyncio.
+     Pytest support for asyncio
 
   :pypi:`pytest-asyncio-cooperative`
-     *last release*: Oct 12, 2021,
-     *status*: 4 - Beta,
+     *last release*: Jan 03, 2022,
+     *status*: N/A,
      *requires*: N/A
 
      Run all your asynchronous tests cooperatively.
@@ -1527,7 +1588,7 @@ This list contains 943 plugins.
      A pytest plugin helps developers to debug by providing useful commits history.
 
   :pypi:`pytest-blender`
-     *last release*: Oct 26, 2021,
+     *last release*: Oct 29, 2021,
      *status*: N/A,
      *requires*: pytest (==6.2.5) ; extra == 'dev'
 
@@ -1541,7 +1602,7 @@ This list contains 943 plugins.
      Pytest plugin to emit notifications via the Blink(1) RGB LED
 
   :pypi:`pytest-blockage`
-     *last release*: Feb 13, 2019,
+     *last release*: Dec 21, 2021,
      *status*: N/A,
      *requires*: pytest
 
@@ -1652,6 +1713,13 @@ This list contains 943 plugins.
 
      Plugin for pytest that automatically publishes coverage and pytest report annotations to Buildkite.
 
+  :pypi:`pytest-builtin-types`
+     *last release*: Nov 17, 2021,
+     *status*: N/A,
+     *requires*: pytest
+
+
+
   :pypi:`pytest-bwrap`
      *last release*: Oct 26, 2018,
      *status*: 3 - Alpha,
@@ -1665,6 +1733,13 @@ This list contains 943 plugins.
      *requires*: N/A
 
      pytest plugin with mechanisms for caching across test runs
+
+  :pypi:`pytest-cache-assert`
+     *last release*: Nov 03, 2021,
+     *status*: 4 - Beta,
+     *requires*: pytest (>=5)
+
+     Cache assertion data to simplify regression testing of complex serializable data
 
   :pypi:`pytest-cagoule`
      *last release*: Jan 01, 2020,
@@ -1709,7 +1784,7 @@ This list contains 943 plugins.
      A sample Python project
 
   :pypi:`pytest-cases`
-     *last release*: Sep 17, 2021,
+     *last release*: Jan 07, 2022,
      *status*: 5 - Production/Stable,
      *requires*: N/A
 
@@ -1842,7 +1917,7 @@ This list contains 943 plugins.
      Py.test plugin for Click
 
   :pypi:`pytest-clld`
-     *last release*: Aug 16, 2021,
+     *last release*: Nov 29, 2021,
      *status*: N/A,
      *requires*: pytest (>=3.6)
 
@@ -1870,7 +1945,7 @@ This list contains 943 plugins.
      PyTest plugin for testing Smart Contracts for Ethereum blockchain.
 
   :pypi:`pytest-codeblocks`
-     *last release*: Oct 13, 2021,
+     *last release*: Dec 21, 2021,
      *status*: 4 - Beta,
      *requires*: pytest (>=6)
 
@@ -1961,7 +2036,7 @@ This list contains 943 plugins.
      Package stands for pytest plugin to upload results into Confluence page.
 
   :pypi:`pytest-console-scripts`
-     *last release*: Sep 28, 2021,
+     *last release*: Jan 06, 2022,
      *status*: 4 - Beta,
      *requires*: N/A
 
@@ -1973,6 +2048,13 @@ This list contains 943 plugins.
      *requires*: pytest
 
      pytest plugin with fixtures for testing consul aware apps
+
+  :pypi:`pytest-container`
+     *last release*: Nov 19, 2021,
+     *status*: 3 - Alpha,
+     *requires*: pytest (>=3.10)
+
+     Pytest fixtures for writing container based tests
 
   :pypi:`pytest-contextfixture`
      *last release*: Mar 12, 2013,
@@ -2045,7 +2127,7 @@ This list contains 943 plugins.
      Pytest plugin for excluding tests based on coverage data
 
   :pypi:`pytest-cpp`
-     *last release*: Jun 04, 2021,
+     *last release*: Dec 06, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest (!=5.4.0,!=5.4.1)
 
@@ -2254,8 +2336,15 @@ This list contains 943 plugins.
 
      Databases fixtures plugin for py.test.
 
+  :pypi:`pytest-db-plugin`
+     *last release*: Nov 27, 2021,
+     *status*: N/A,
+     *requires*: pytest (>=5.0)
+
+
+
   :pypi:`pytest-dbt-adapter`
-     *last release*: Jun 07, 2021,
+     *last release*: Nov 24, 2021,
      *status*: N/A,
      *requires*: pytest (<7,>=6)
 
@@ -2318,7 +2407,7 @@ This list contains 943 plugins.
      Mark tests as testing a deprecated feature with a warning note.
 
   :pypi:`pytest-describe`
-     *last release*: Aug 18, 2021,
+     *last release*: Nov 13, 2021,
      *status*: 4 - Beta,
      *requires*: pytest (>=4.0.0)
 
@@ -2388,7 +2477,7 @@ This list contains 943 plugins.
      A pytest plugin to notify test results to a Discord channel.
 
   :pypi:`pytest-django`
-     *last release*: Jun 06, 2021,
+     *last release*: Dec 07, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest (>=5.4.0)
 
@@ -2527,6 +2616,13 @@ This list contains 943 plugins.
 
      A documentation plugin for py.test.
 
+  :pypi:`pytest-docfiles`
+     *last release*: Dec 22, 2021,
+     *status*: 4 - Beta,
+     *requires*: pytest (>=3.7.0)
+
+     pytest plugin to test codeblocks in your documentation.
+
   :pypi:`pytest-docgen`
      *last release*: Apr 17, 2020,
      *status*: N/A,
@@ -2570,9 +2666,9 @@ This list contains 943 plugins.
      A plugin to use docker databases for pytests
 
   :pypi:`pytest-docker-fixtures`
-     *last release*: Aug 30, 2021,
+     *last release*: Nov 23, 2021,
      *status*: 3 - Alpha,
-     *requires*: pytest
+     *requires*: N/A
 
      pytest docker fixtures
 
@@ -2654,7 +2750,7 @@ This list contains 943 plugins.
      A simple pytest plugin to import names and add them to the doctest namespace.
 
   :pypi:`pytest-doctestplus`
-     *last release*: Sep 20, 2021,
+     *last release*: Dec 09, 2021,
      *status*: 3 - Alpha,
      *requires*: pytest (>=4.6)
 
@@ -2710,7 +2806,7 @@ This list contains 943 plugins.
      A Pytest plugin to drop duplicated tests during collection
 
   :pypi:`pytest-dummynet`
-     *last release*: Oct 13, 2021,
+     *last release*: Dec 15, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest
 
@@ -2822,28 +2918,35 @@ This list contains 943 plugins.
      Send execution result email
 
   :pypi:`pytest-embedded`
-     *last release*: Oct 25, 2021,
+     *last release*: Jan 06, 2022,
      *status*: N/A,
      *requires*: pytest (>=6.2.0)
 
      pytest embedded plugin
 
+  :pypi:`pytest-embedded-arduino`
+     *last release*: Jan 06, 2022,
+     *status*: N/A,
+     *requires*: N/A
+
+     pytest embedded plugin for Arduino projects
+
   :pypi:`pytest-embedded-idf`
-     *last release*: Oct 25, 2021,
+     *last release*: Jan 06, 2022,
      *status*: N/A,
      *requires*: N/A
 
      pytest embedded plugin for esp-idf project
 
   :pypi:`pytest-embedded-jtag`
-     *last release*: Oct 25, 2021,
+     *last release*: Jan 06, 2022,
      *status*: N/A,
      *requires*: N/A
 
      pytest embedded plugin for testing with jtag
 
   :pypi:`pytest-embedded-qemu`
-     *last release*: Oct 25, 2021,
+     *last release*: Jan 06, 2022,
      *status*: N/A,
      *requires*: N/A
 
@@ -2857,14 +2960,14 @@ This list contains 943 plugins.
      pytest embedded plugin for esp-idf project by qemu, not target chip
 
   :pypi:`pytest-embedded-serial`
-     *last release*: Oct 25, 2021,
+     *last release*: Jan 06, 2022,
      *status*: N/A,
      *requires*: N/A
 
      pytest embedded plugin for testing serial ports
 
   :pypi:`pytest-embedded-serial-esp`
-     *last release*: Oct 25, 2021,
+     *last release*: Jan 06, 2022,
      *status*: N/A,
      *requires*: N/A
 
@@ -2885,11 +2988,25 @@ This list contains 943 plugins.
      Pytest plugin to represent test output with emoji support
 
   :pypi:`pytest-enabler`
-     *last release*: Jan 19, 2021,
+     *last release*: Nov 08, 2021,
      *status*: 5 - Production/Stable,
-     *requires*: pytest (!=3.7.3,>=3.5) ; extra == 'testing'
+     *requires*: pytest (>=6) ; extra == 'testing'
 
      Enable installed pytest plugins
+
+  :pypi:`pytest-encode`
+     *last release*: Nov 06, 2021,
+     *status*: N/A,
+     *requires*: N/A
+
+     set your encoding and logger
+
+  :pypi:`pytest-encode-kane`
+     *last release*: Nov 16, 2021,
+     *status*: N/A,
+     *requires*: pytest
+
+     set your encoding and logger
 
   :pypi:`pytest-enhancements`
      *last release*: Oct 30, 2019,
@@ -3004,11 +3121,18 @@ This list contains 943 plugins.
      Walk your code through exception script to check it's resiliency to failures.
 
   :pypi:`pytest-executable`
-     *last release*: Aug 10, 2020,
+     *last release*: Nov 10, 2021,
      *status*: 4 - Beta,
-     *requires*: pytest (<6.1,>=4.3)
+     *requires*: pytest (<6.3,>=4.3)
 
      pytest plugin for testing executables
+
+  :pypi:`pytest-execution-timer`
+     *last release*: Dec 24, 2021,
+     *status*: 4 - Beta,
+     *requires*: N/A
+
+     A timer for the phases of Pytest's execution.
 
   :pypi:`pytest-expect`
      *last release*: Apr 21, 2016,
@@ -3018,7 +3142,7 @@ This list contains 943 plugins.
      py.test plugin to store test expectations and mark tests based on them
 
   :pypi:`pytest-expecter`
-     *last release*: Jul 08, 2020,
+     *last release*: Jan 10, 2022,
      *status*: 5 - Production/Stable,
      *requires*: N/A
 
@@ -3030,6 +3154,13 @@ This list contains 943 plugins.
      *requires*: pytest (>=2.4.2)
 
      This plugin is used to expect multiple assert using pytest framework.
+
+  :pypi:`pytest-experiments`
+     *last release*: Dec 13, 2021,
+     *status*: 4 - Beta,
+     *requires*: pytest (>=6.2.5,<7.0.0)
+
+     A pytest plugin to help developers of research-oriented software projects keep track of the results of their numerical experiments.
 
   :pypi:`pytest-explicit`
      *last release*: Jun 15, 2021,
@@ -3107,6 +3238,13 @@ This list contains 943 plugins.
      *requires*: pytest (>=4.1.0)
 
      A pytest plugin that helps better distinguishing real test failures from setup flakiness.
+
+  :pypi:`pytest-fail-slow`
+     *last release*: Dec 10, 2021,
+     *status*: 4 - Beta,
+     *requires*: pytest (>=6.0)
+
+     Fail tests that take too long to run
 
   :pypi:`pytest-faker`
      *last release*: Dec 19, 2016,
@@ -3214,9 +3352,9 @@ This list contains 943 plugins.
      Pytest plugin for filtering based on sub-packages
 
   :pypi:`pytest-find-dependencies`
-     *last release*: Apr 21, 2021,
+     *last release*: Jan 15, 2022,
      *status*: 4 - Beta,
-     *requires*: pytest (>=3.5.0)
+     *requires*: pytest (>=4.3.0)
 
      A pytest plugin to find dependencies between tests
 
@@ -3291,11 +3429,18 @@ This list contains 943 plugins.
      pytest plugin to check FLAKE8 requirements
 
   :pypi:`pytest-flake8-path`
-     *last release*: Aug 11, 2021,
+     *last release*: Jan 10, 2022,
      *status*: 5 - Production/Stable,
      *requires*: pytest
 
      A pytest fixture for testing flake8 plugins.
+
+  :pypi:`pytest-flake8-v2`
+     *last release*: Jan 04, 2022,
+     *status*: 4 - Beta,
+     *requires*: pytest (>=3.5)
+
+     pytest plugin to check FLAKE8 requirements
 
   :pypi:`pytest-flakefinder`
      *last release*: Jul 28, 2020,
@@ -3305,9 +3450,9 @@ This list contains 943 plugins.
      Runs tests multiple times to expose flakiness.
 
   :pypi:`pytest-flakes`
-     *last release*: Oct 26, 2021,
+     *last release*: Dec 02, 2021,
      *status*: 5 - Production/Stable,
-     *requires*: N/A
+     *requires*: pytest (>=5)
 
      pytest plugin to check source code with pyflakes
 
@@ -3389,7 +3534,7 @@ This list contains 943 plugins.
      Check if requirement files are frozen
 
   :pypi:`pytest-frozen-uuids`
-     *last release*: Oct 19, 2021,
+     *last release*: Dec 08, 2021,
      *status*: N/A,
      *requires*: pytest (>=3.0)
 
@@ -3403,11 +3548,11 @@ This list contains 943 plugins.
      Pytest plugin for measuring function coverage
 
   :pypi:`pytest-funparam`
-     *last release*: Apr 23, 2021,
+     *last release*: Dec 02, 2021,
      *status*: 4 - Beta,
-     *requires*: pytest (>=4.6.0)
+     *requires*: pytest >=4.6.0
 
-     An alternative way to parametrize test cases
+     An alternative way to parametrize test cases.
 
   :pypi:`pytest-fxa`
      *last release*: Aug 28, 2018,
@@ -3451,6 +3596,13 @@ This list contains 943 plugins.
 
      A flexible framework for executing BDD gherkin tests
 
+  :pypi:`pytest-gh-log-group`
+     *last release*: Jan 11, 2022,
+     *status*: 3 - Alpha,
+     *requires*: pytest
+
+     pytest plugin for gh actions
+
   :pypi:`pytest-ghostinspector`
      *last release*: May 17, 2016,
      *status*: 3 - Alpha,
@@ -3459,7 +3611,7 @@ This list contains 943 plugins.
      For finding/executing Ghost Inspector tests
 
   :pypi:`pytest-girder`
-     *last release*: Oct 08, 2021,
+     *last release*: Jan 10, 2022,
      *status*: N/A,
      *requires*: N/A
 
@@ -3494,7 +3646,7 @@ This list contains 943 plugins.
      Plugin for py.test that associates tests with github issues using a marker.
 
   :pypi:`pytest-github-actions-annotate-failures`
-     *last release*: Oct 24, 2021,
+     *last release*: Dec 08, 2021,
      *status*: N/A,
      *requires*: pytest (>=4.0.0)
 
@@ -3506,6 +3658,13 @@ This list contains 943 plugins.
      *requires*: N/A
 
      py.test plugin to ignore the same files as git
+
+  :pypi:`pytest-glamor-allure`
+     *last release*: Nov 26, 2021,
+     *status*: 4 - Beta,
+     *requires*: pytest
+
+     Extends allure-pytest functionality
 
   :pypi:`pytest-gnupg-fixtures`
      *last release*: Mar 04, 2021,
@@ -3571,7 +3730,7 @@ This list contains 943 plugins.
      A plugin to provide different types and configs of Kubernetes clusters that can be used for testing.
 
   :pypi:`pytest-helm-charts`
-     *last release*: Oct 26, 2021,
+     *last release*: Jan 10, 2022,
      *status*: 4 - Beta,
      *requires*: pytest (>=6.1.2,<7.0.0)
 
@@ -3592,7 +3751,7 @@ This list contains 943 plugins.
      pytest helpers
 
   :pypi:`pytest-helpers-namespace`
-     *last release*: Apr 29, 2021,
+     *last release*: Dec 29, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest (>=6.0.0)
 
@@ -3627,11 +3786,18 @@ This list contains 943 plugins.
      A pytest plugin for use with homeassistant custom components.
 
   :pypi:`pytest-homeassistant-custom-component`
-     *last release*: Sep 30, 2021,
+     *last release*: Jan 11, 2022,
      *status*: 3 - Alpha,
      *requires*: pytest (==6.2.5)
 
      Experimental package to automatically extract test plugins for Home Assistant custom components
+
+  :pypi:`pytest-honey`
+     *last release*: Jan 07, 2022,
+     *status*: 4 - Beta,
+     *requires*: pytest (>=3.5.0)
+
+     A simple plugin to use with pytest
 
   :pypi:`pytest-honors`
      *last release*: Mar 06, 2020,
@@ -3704,7 +3870,7 @@ This list contains 943 plugins.
      Fixture "http" for http requests
 
   :pypi:`pytest-httpbin`
-     *last release*: Feb 11, 2019,
+     *last release*: Dec 25, 2021,
      *status*: 5 - Production/Stable,
      *requires*: N/A
 
@@ -3725,23 +3891,23 @@ This list contains 943 plugins.
      A thin wrapper of HTTPretty for pytest
 
   :pypi:`pytest-httpserver`
-     *last release*: Oct 18, 2021,
+     *last release*: Dec 15, 2021,
      *status*: 3 - Alpha,
-     *requires*: pytest ; extra == 'dev'
+     *requires*: N/A
 
      pytest-httpserver is a httpserver for pytest
 
   :pypi:`pytest-httpx`
-     *last release*: Oct 22, 2021,
+     *last release*: Dec 27, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest (==6.*)
 
      Send responses to httpx.
 
   :pypi:`pytest-httpx-blockage`
-     *last release*: Apr 28, 2021,
+     *last release*: Nov 16, 2021,
      *status*: N/A,
-     *requires*: pytest (>=6.2.3)
+     *requires*: pytest (>=6.2.5)
 
      Disable httpx requests during a test run
 
@@ -3767,7 +3933,7 @@ This list contains 943 plugins.
      help hypo module for pytest
 
   :pypi:`pytest-ibutsu`
-     *last release*: Jun 16, 2021,
+     *last release*: Jan 14, 2022,
      *status*: 4 - Beta,
      *requires*: pytest
 
@@ -3786,6 +3952,13 @@ This list contains 943 plugins.
      *requires*: N/A
 
      A pytest plugin for idapython. Allows a pytest setup to run tests outside and inside IDA in an automated manner by runnig pytest inside IDA and by mocking idapython api
+
+  :pypi:`pytest-idempotent`
+     *last release*: Jan 10, 2022,
+     *status*: N/A,
+     *requires*: N/A
+
+     Pytest plugin for testing function idempotence.
 
   :pypi:`pytest-ignore-flaky`
      *last release*: Apr 23, 2021,
@@ -3948,6 +4121,13 @@ This list contains 943 plugins.
 
      py.test plugin to check import ordering using isort
 
+  :pypi:`pytest-is-running`
+     *last release*: Jan 10, 2022,
+     *status*: 5 - Production/Stable,
+     *requires*: pytest
+
+     pytest plugin providing a function to check if pytest is running.
+
   :pypi:`pytest-it`
      *last release*: Jan 22, 2020,
      *status*: 4 - Beta,
@@ -3977,14 +4157,14 @@ This list contains 943 plugins.
      A custom jest-pytest oriented Pytest reporter
 
   :pypi:`pytest-jira`
-     *last release*: Nov 29, 2019,
-     *status*: N/A,
+     *last release*: Dec 02, 2021,
+     *status*: 3 - Alpha,
      *requires*: N/A
 
      py.test JIRA integration plugin, using markers
 
   :pypi:`pytest-jira-xray`
-     *last release*: Oct 13, 2021,
+     *last release*: Dec 10, 2021,
      *status*: 3 - Alpha,
      *requires*: pytest
 
@@ -4138,7 +4318,7 @@ This list contains 943 plugins.
      A python-libfaketime plugin for pytest.
 
   :pypi:`pytest-libiio`
-     *last release*: Oct 23, 2021,
+     *last release*: Dec 15, 2021,
      *status*: 4 - Beta,
      *requires*: N/A
 
@@ -4208,7 +4388,7 @@ This list contains 943 plugins.
      A PyTest plugin which provides an FTP fixture for your tests
 
   :pypi:`pytest-localserver`
-     *last release*: Nov 14, 2018,
+     *last release*: Dec 13, 2021,
      *status*: 4 - Beta,
      *requires*: N/A
 
@@ -4222,14 +4402,14 @@ This list contains 943 plugins.
      Pytest plugin for AWS integration tests
 
   :pypi:`pytest-lockable`
-     *last release*: Oct 23, 2021,
+     *last release*: Nov 09, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest
 
      lockable resource plugin for pytest
 
   :pypi:`pytest-locker`
-     *last release*: Oct 26, 2021,
+     *last release*: Oct 29, 2021,
      *status*: N/A,
      *requires*: pytest (>=5.4)
 
@@ -4334,9 +4514,9 @@ This list contains 943 plugins.
      UNKNOWN
 
   :pypi:`pytest-matcher`
-     *last release*: Apr 23, 2020,
+     *last release*: Dec 10, 2021,
      *status*: 5 - Production/Stable,
-     *requires*: pytest (>=3.4)
+     *requires*: N/A
 
      Match test output against patterns stored in files
 
@@ -4402,6 +4582,13 @@ This list contains 943 plugins.
      *requires*: N/A
 
      pytest plugin to write integration tests for projects using Mercurial Python internals
+
+  :pypi:`pytest-message`
+     *last release*: Jan 05, 2022,
+     *status*: N/A,
+     *requires*: pytest (>=6.2.5)
+
+     Pytest plugin for sending report message of marked tests execution
 
   :pypi:`pytest-messenger`
      *last release*: Dec 16, 2020,
@@ -4474,7 +4661,7 @@ This list contains 943 plugins.
      A mock API server with configurable routes and responses available as a fixture.
 
   :pypi:`pytest-mock-generator`
-     *last release*: Aug 10, 2021,
+     *last release*: Jan 05, 2022,
      *status*: 5 - Production/Stable,
      *requires*: N/A
 
@@ -4502,16 +4689,16 @@ This list contains 943 plugins.
      An in-memory mock of a Redis server that runs in a separate thread. This is to be used for unit-tests that require a Redis database.
 
   :pypi:`pytest-mock-resources`
-     *last release*: Sep 20, 2021,
+     *last release*: Jan 11, 2022,
      *status*: N/A,
      *requires*: pytest (>=1.0)
 
      A pytest plugin for easily instantiating reproducible mock resources.
 
   :pypi:`pytest-mock-server`
-     *last release*: Apr 06, 2020,
+     *last release*: Jan 09, 2022,
      *status*: 4 - Beta,
-     *requires*: N/A
+     *requires*: pytest (>=3.5.0)
 
      Mock server plugin for pytest
 
@@ -4558,7 +4745,7 @@ This list contains 943 plugins.
      pytest plugin for MongoDB fixtures
 
   :pypi:`pytest-monitor`
-     *last release*: Aug 24, 2021,
+     *last release*: Dec 23, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest
 
@@ -4600,7 +4787,7 @@ This list contains 943 plugins.
      A test batcher for multiprocessed Pytest runs
 
   :pypi:`pytest-mpi`
-     *last release*: Mar 14, 2021,
+     *last release*: Jan 08, 2022,
      *status*: 3 - Alpha,
      *requires*: pytest
 
@@ -4670,7 +4857,7 @@ This list contains 943 plugins.
      Mypy static type checker plugin for Pytest
 
   :pypi:`pytest-mypy-plugins`
-     *last release*: Oct 19, 2021,
+     *last release*: Jan 11, 2022,
      *status*: 3 - Alpha,
      *requires*: pytest (>=6.0.0)
 
@@ -4691,7 +4878,7 @@ This list contains 943 plugins.
      Pytest plugin to check mypy output.
 
   :pypi:`pytest-mysql`
-     *last release*: Jun 01, 2021,
+     *last release*: Nov 22, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest
 
@@ -4705,9 +4892,9 @@ This list contains 943 plugins.
      pytest plugin for visual testing websites using selenium
 
   :pypi:`pytest-neo`
-     *last release*: Apr 23, 2019,
+     *last release*: Jan 08, 2022,
      *status*: 3 - Alpha,
-     *requires*: pytest (>=3.7.2)
+     *requires*: pytest (>=6.2.0)
 
      pytest-neo is a plugin for pytest that shows tests like screen of Matrix.
 
@@ -4852,7 +5039,7 @@ This list contains 943 plugins.
      pytest results data-base and HTML reporter
 
   :pypi:`pytest-odoo`
-     *last release*: Aug 19, 2020,
+     *last release*: Nov 04, 2021,
      *status*: 4 - Beta,
      *requires*: pytest (>=2.9)
 
@@ -4901,14 +5088,14 @@ This list contains 943 plugins.
      Pytest plugin for detecting inadvertent open file handles
 
   :pypi:`pytest-opentmi`
-     *last release*: Oct 05, 2021,
+     *last release*: Nov 04, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest (>=5.0)
 
      pytest plugin for publish results to opentmi
 
   :pypi:`pytest-operator`
-     *last release*: Oct 26, 2021,
+     *last release*: Dec 06, 2021,
      *status*: N/A,
      *requires*: N/A
 
@@ -4936,9 +5123,9 @@ This list contains 943 plugins.
      A pytest plugin for orchestrating tests
 
   :pypi:`pytest-order`
-     *last release*: May 30, 2021,
+     *last release*: Jan 09, 2022,
      *status*: 4 - Beta,
-     *requires*: pytest (>=5.0)
+     *requires*: pytest (>=5.0) ; python_version < "3.10"
 
      pytest plugin to run your tests in a specific order
 
@@ -4956,12 +5143,26 @@ This list contains 943 plugins.
 
      OS X notifications for py.test results.
 
+  :pypi:`pytest-otel`
+     *last release*: Dec 16, 2021,
+     *status*: N/A,
+     *requires*: N/A
+
+     pytest-otel report OpenTelemetry traces about test executed
+
   :pypi:`pytest-pact`
      *last release*: Jan 07, 2019,
      *status*: 4 - Beta,
      *requires*: N/A
 
      A simple plugin to use with pytest
+
+  :pypi:`pytest-pahrametahrize`
+     *last release*: Nov 24, 2021,
+     *status*: 4 - Beta,
+     *requires*: pytest (>=6.0,<7.0)
+
+     Parametrize your tests with a Boston accent.
 
   :pypi:`pytest-parallel`
      *last release*: Oct 10, 2021,
@@ -4992,9 +5193,9 @@ This list contains 943 plugins.
      Configure pytest fixtures using a combination of"parametrize" and markers
 
   :pypi:`pytest-parametrization`
-     *last release*: Jul 28, 2019,
+     *last release*: Nov 30, 2021,
      *status*: 5 - Production/Stable,
-     *requires*: N/A
+     *requires*: pytest
 
      Simpler PyTest parametrization
 
@@ -5083,9 +5284,9 @@ This list contains 943 plugins.
      Change the exit code of pytest test sessions when a required percent of tests pass.
 
   :pypi:`pytest-perf`
-     *last release*: Jun 27, 2021,
+     *last release*: Jan 08, 2022,
      *status*: 5 - Production/Stable,
-     *requires*: pytest (>=4.6) ; extra == 'testing'
+     *requires*: pytest (>=6) ; extra == 'testing'
 
      pytest-perf
 
@@ -5097,11 +5298,18 @@ This list contains 943 plugins.
      A simple plugin to ensure the execution of critical sections of code has not been impacted
 
   :pypi:`pytest-persistence`
-     *last release*: Oct 13, 2021,
+     *last release*: Dec 07, 2021,
      *status*: N/A,
      *requires*: N/A
 
      Pytest tool for persistent objects
+
+  :pypi:`pytest-pg`
+     *last release*: Jan 09, 2022,
+     *status*: 5 - Production/Stable,
+     *requires*: pytest (>=6.0.0)
+
+     Helps to run PostgreSQL in docker as pytest fixture
 
   :pypi:`pytest-pgsql`
      *last release*: May 13, 2020,
@@ -5109,6 +5317,13 @@ This list contains 943 plugins.
      *requires*: pytest (>=3.0.0)
 
      Pytest plugins and helpers for tests using a Postgres database.
+
+  :pypi:`pytest-phmdoctest`
+     *last release*: Nov 10, 2021,
+     *status*: 4 - Beta,
+     *requires*: pytest (>=6.2) ; extra == 'test'
+
+     pytest plugin to test Python examples in Markdown using phmdoctest.
 
   :pypi:`pytest-picked`
      *last release*: Dec 23, 2020,
@@ -5188,9 +5403,16 @@ This list contains 943 plugins.
      Pytest plugin for reading playbooks.
 
   :pypi:`pytest-playwright`
-     *last release*: Oct 11, 2021,
+     *last release*: Oct 28, 2021,
      *status*: N/A,
      *requires*: pytest
+
+     A pytest wrapper with fixtures for Playwright to automate web browsers
+
+  :pypi:`pytest-playwrights`
+     *last release*: Dec 02, 2021,
+     *status*: N/A,
+     *requires*: N/A
 
      A pytest wrapper with fixtures for Playwright to automate web browsers
 
@@ -5300,9 +5522,9 @@ This list contains 943 plugins.
      Run PostgreSQL in Docker container in Pytest.
 
   :pypi:`pytest-postgresql`
-     *last release*: Oct 20, 2021,
+     *last release*: Dec 22, 2021,
      *status*: 5 - Production/Stable,
-     *requires*: pytest (>=3.0.0)
+     *requires*: pytest (>=6.2.0)
 
      Postgresql fixtures and fixture factories for Pytest.
 
@@ -5313,6 +5535,13 @@ This list contains 943 plugins.
 
      pytest plugin with powerful fixtures
 
+  :pypi:`pytest-pretty-terminal`
+     *last release*: Nov 24, 2021,
+     *status*: N/A,
+     *requires*: pytest (>=3.4.1)
+
+     pytest plugin for generating prettier terminal output
+
   :pypi:`pytest-pride`
      *last release*: Apr 02, 2016,
      *status*: 3 - Alpha,
@@ -5321,11 +5550,18 @@ This list contains 943 plugins.
      Minitest-style test colors
 
   :pypi:`pytest-print`
-     *last release*: Jun 17, 2021,
+     *last release*: Dec 28, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest (>=6)
 
      pytest-print adds the printer fixture you can use to print messages to the user (directly to the pytest runner, not stdout)
+
+  :pypi:`pytest-profiles`
+     *last release*: Dec 09, 2021,
+     *status*: 4 - Beta,
+     *requires*: pytest (>=3.7.0)
+
+     pytest plugin for configuration profiles
 
   :pypi:`pytest-profiling`
      *last release*: May 28, 2019,
@@ -5335,9 +5571,9 @@ This list contains 943 plugins.
      Profiling plugin for py.test
 
   :pypi:`pytest-progress`
-     *last release*: Oct 06, 2020,
+     *last release*: Nov 09, 2021,
      *status*: 5 - Production/Stable,
-     *requires*: N/A
+     *requires*: pytest (>=2.7)
 
      pytest plugin for instant test progress status
 
@@ -5510,7 +5746,7 @@ This list contains 943 plugins.
      Pytest plugin for uploading test results to your QA Touch Testrun.
 
   :pypi:`pytest-qgis`
-     *last release*: Oct 08, 2021,
+     *last release*: Dec 16, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest (>=6.2.3)
 
@@ -5522,6 +5758,13 @@ This list contains 943 plugins.
      *requires*: pytest (>=6.0.0)
 
      Run QML Tests with pytest
+
+  :pypi:`pytest-qr`
+     *last release*: Nov 25, 2021,
+     *status*: 4 - Beta,
+     *requires*: N/A
+
+     pytest plugin to generate test result QR codes
 
   :pypi:`pytest-qt`
      *last release*: Jun 13, 2021,
@@ -5573,7 +5816,7 @@ This list contains 943 plugins.
      pytest plugin to implement PEP712
 
   :pypi:`pytest-railflow-testrail-reporter`
-     *last release*: Sep 02, 2021,
+     *last release*: Dec 02, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest
 
@@ -5608,7 +5851,7 @@ This list contains 943 plugins.
      py.test plugin to randomize tests
 
   :pypi:`pytest-randomly`
-     *last release*: Aug 13, 2021,
+     *last release*: Jan 10, 2022,
      *status*: 5 - Production/Stable,
      *requires*: pytest
 
@@ -5643,7 +5886,7 @@ This list contains 943 plugins.
      Test your README.md file
 
   :pypi:`pytest-reana`
-     *last release*: Sep 30, 2021,
+     *last release*: Jan 05, 2022,
      *status*: 3 - Alpha,
      *requires*: N/A
 
@@ -5664,7 +5907,7 @@ This list contains 943 plugins.
      Provides pytest plugins for reporting request/response traffic, screenshots, and more to ReportPortal
 
   :pypi:`pytest-redis`
-     *last release*: May 25, 2021,
+     *last release*: Dec 07, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest
 
@@ -5699,7 +5942,7 @@ This list contains 943 plugins.
      Conveniently run pytest with a dot-formatted test reference.
 
   :pypi:`pytest-regressions`
-     *last release*: Jan 27, 2021,
+     *last release*: Jan 04, 2022,
      *status*: 5 - Production/Stable,
      *requires*: pytest (>=3.5.0)
 
@@ -5734,9 +5977,9 @@ This list contains 943 plugins.
      Pytest plugin to create a temporary directory with remote files
 
   :pypi:`pytest-remotedata`
-     *last release*: Jul 20, 2019,
+     *last release*: Dec 21, 2021,
      *status*: 3 - Alpha,
-     *requires*: pytest (>=3.1)
+     *requires*: pytest (>=4.6)
 
      Pytest plugin for controlling remote data access.
 
@@ -5776,7 +6019,7 @@ This list contains 943 plugins.
      Saves previous test runs and allow re-execute previous pytest runs to reproduce crashes or flaky tests
 
   :pypi:`pytest-repo-health`
-     *last release*: Nov 03, 2020,
+     *last release*: Dec 16, 2021,
      *status*: 3 - Alpha,
      *requires*: pytest
 
@@ -5839,7 +6082,7 @@ This list contains 943 plugins.
      pytest plugin for adding tests' parameters to junit report
 
   :pypi:`pytest-reportportal`
-     *last release*: Jun 18, 2021,
+     *last release*: Jan 11, 2022,
      *status*: N/A,
      *requires*: pytest (>=3.8.0)
 
@@ -5858,6 +6101,13 @@ This list contains 943 plugins.
      *requires*: pytest (>=3.5.0)
 
      A simple plugin to use with pytest
+
+  :pypi:`pytest-requires`
+     *last release*: Dec 21, 2021,
+     *status*: 4 - Beta,
+     *requires*: pytest (>=3.5.0)
+
+     A pytest plugin to elegantly skip tests with optional requirements
 
   :pypi:`pytest-reraise`
      *last release*: Jun 17, 2021,
@@ -5881,7 +6131,7 @@ This list contains 943 plugins.
      pytest plugin to re-run tests to eliminate flaky failures
 
   :pypi:`pytest-resilient-circuits`
-     *last release*: Oct 13, 2021,
+     *last release*: Nov 15, 2021,
      *status*: N/A,
      *requires*: N/A
 
@@ -5916,7 +6166,7 @@ This list contains 943 plugins.
      py.test integration for responses
 
   :pypi:`pytest-restrict`
-     *last release*: Aug 12, 2021,
+     *last release*: Jan 10, 2022,
      *status*: 5 - Production/Stable,
      *requires*: pytest
 
@@ -5930,7 +6180,7 @@ This list contains 943 plugins.
      A RethinkDB plugin for pytest.
 
   :pypi:`pytest-reverse`
-     *last release*: Aug 12, 2021,
+     *last release*: Jan 10, 2022,
      *status*: 5 - Production/Stable,
      *requires*: pytest
 
@@ -5986,7 +6236,7 @@ This list contains 943 plugins.
      Test code from RST documents with pytest
 
   :pypi:`pytest-rt`
-     *last release*: Sep 04, 2021,
+     *last release*: Dec 22, 2021,
      *status*: N/A,
      *requires*: N/A
 
@@ -6084,7 +6334,7 @@ This list contains 943 plugins.
 
 
   :pypi:`pytest-sbase`
-     *last release*: Oct 26, 2021,
+     *last release*: Jan 12, 2022,
      *status*: 5 - Production/Stable,
      *requires*: N/A
 
@@ -6105,7 +6355,7 @@ This list contains 943 plugins.
      👍 Validate return values against a schema-like object in testing
 
   :pypi:`pytest-securestore`
-     *last release*: Jun 19, 2019,
+     *last release*: Nov 08, 2021,
      *status*: 4 - Beta,
      *requires*: N/A
 
@@ -6126,14 +6376,14 @@ This list contains 943 plugins.
      pytest plugin for Selenium
 
   :pypi:`pytest-seleniumbase`
-     *last release*: Oct 26, 2021,
+     *last release*: Jan 12, 2022,
      *status*: 5 - Production/Stable,
      *requires*: N/A
 
      A complete web automation framework for end-to-end testing.
 
   :pypi:`pytest-selenium-enhancer`
-     *last release*: Nov 26, 2020,
+     *last release*: Dec 16, 2021,
      *status*: 5 - Production/Stable,
      *requires*: N/A
 
@@ -6168,7 +6418,7 @@ This list contains 943 plugins.
      Extensible server fixures for py.test
 
   :pypi:`pytest-serverless`
-     *last release*: May 02, 2021,
+     *last release*: Nov 27, 2021,
      *status*: 4 - Beta,
      *requires*: N/A
 
@@ -6217,11 +6467,11 @@ This list contains 943 plugins.
 
 
   :pypi:`pytest-shell`
-     *last release*: Jan 18, 2020,
+     *last release*: Nov 07, 2021,
      *status*: N/A,
      *requires*: N/A
 
-     A pytest plugin for testing shell scripts and line-based processes
+     A pytest plugin to help with testing shell scripts / black box commands
 
   :pypi:`pytest-sheraf`
      *last release*: Feb 11, 2020,
@@ -6231,7 +6481,7 @@ This list contains 943 plugins.
      Versatile ZODB abstraction layer - pytest fixtures
 
   :pypi:`pytest-sherlock`
-     *last release*: Jul 13, 2020,
+     *last release*: Nov 18, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest (>=3.5.1)
 
@@ -6357,7 +6607,7 @@ This list contains 943 plugins.
      py.test plugin for Snap-CI
 
   :pypi:`pytest-snapshot`
-     *last release*: Sep 16, 2021,
+     *last release*: Dec 02, 2021,
      *status*: 4 - Beta,
      *requires*: pytest (>=3.0.0)
 
@@ -6370,8 +6620,15 @@ This list contains 943 plugins.
 
 
 
+  :pypi:`pytest-snowflake-bdd`
+     *last release*: Jan 05, 2022,
+     *status*: 4 - Beta,
+     *requires*: pytest (>=6.2.0)
+
+     Setup test data and run tests on snowflake in BDD style!
+
   :pypi:`pytest-socket`
-     *last release*: Aug 28, 2021,
+     *last release*: Dec 23, 2021,
      *status*: 4 - Beta,
      *requires*: pytest (>=3.6.3)
 
@@ -6383,6 +6640,13 @@ This list contains 943 plugins.
      *requires*: pytest
 
 
+
+  :pypi:`pytest-solidity`
+     *last release*: Jan 15, 2022,
+     *status*: 1 - Planning,
+     *requires*: pytest (<7,>=6.0.1) ; extra == 'tests'
+
+     A PyTest library plugin for Solidity language.
 
   :pypi:`pytest-solr`
      *last release*: May 11, 2020,
@@ -6397,6 +6661,13 @@ This list contains 943 plugins.
      *requires*: pytest (>=3.1.1)
 
      A simple plugin to first execute tests that historically failed more
+
+  :pypi:`pytest-sosu`
+     *last release*: Dec 20, 2021,
+     *status*: 2 - Pre-Alpha,
+     *requires*: pytest
+
+     Unofficial PyTest plugin for Sauce Labs
 
   :pypi:`pytest-sourceorder`
      *last release*: Sep 01, 2021,
@@ -6447,12 +6718,19 @@ This list contains 943 plugins.
 
      Splinter plugin for pytest testing framework
 
+  :pypi:`pytest-splinter4`
+     *last release*: Dec 22, 2021,
+     *status*: 6 - Mature,
+     *requires*: pytest (>=6.2.4)
+
+     Pytest plugin for the splinter automation library
+
   :pypi:`pytest-split`
-     *last release*: Aug 06, 2021,
+     *last release*: Jan 10, 2022,
      *status*: 4 - Beta,
      *requires*: pytest (>=5,<7)
 
-     Pytest plugin for splitting test suite based on test execution time
+     Pytest plugin which splits the test suite to equally sized sub suites based on test execution time.
 
   :pypi:`pytest-splitio`
      *last release*: Sep 22, 2020,
@@ -6476,14 +6754,14 @@ This list contains 943 plugins.
 
 
   :pypi:`pytest-splunk-addon`
-     *last release*: Oct 08, 2021,
+     *last release*: Dec 17, 2021,
      *status*: N/A,
      *requires*: pytest (>5.4.0,<6.3)
 
      A Dynamic test tool for Splunk Apps and Add-ons
 
   :pypi:`pytest-splunk-addon-ui-smartx`
-     *last release*: Oct 07, 2021,
+     *last release*: Dec 06, 2021,
      *status*: N/A,
      *requires*: N/A
 
@@ -6616,7 +6894,7 @@ This list contains 943 plugins.
      A pytest plugin to organize long run tests (named studies) without interfering the regular tests
 
   :pypi:`pytest-subprocess`
-     *last release*: Oct 24, 2021,
+     *last release*: Nov 07, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest (>=4.0.0)
 
@@ -6630,9 +6908,9 @@ This list contains 943 plugins.
      A hack to explicitly set up and tear down fixtures.
 
   :pypi:`pytest-subtests`
-     *last release*: May 29, 2021,
+     *last release*: Jan 15, 2022,
      *status*: 4 - Beta,
-     *requires*: pytest (>=5.3.0)
+     *requires*: pytest (>=6.0)
 
      unittest subTest() support and subtests fixture
 
@@ -6658,7 +6936,7 @@ This list contains 943 plugins.
      Workaround for https://github.com/Frozenball/pytest-sugar/issues/159
 
   :pypi:`pytest-super-check`
-     *last release*: Aug 12, 2021,
+     *last release*: Jan 10, 2022,
      *status*: 5 - Production/Stable,
      *requires*: pytest
 
@@ -6678,12 +6956,26 @@ This list contains 943 plugins.
 
      pytest-symbols is a pytest plugin that adds support for passing test environment symbols into pytest tests.
 
+  :pypi:`pytest-system-statistics`
+     *last release*: Jan 05, 2022,
+     *status*: 4 - Beta,
+     *requires*: pytest (>=6.0.0)
+
+     Pytest plugin to track and report system usage statistics
+
   :pypi:`pytest-takeltest`
-     *last release*: Oct 13, 2021,
+     *last release*: Jan 04, 2022,
      *status*: N/A,
      *requires*: N/A
 
      Fixtures for ansible, testinfra and molecule
+
+  :pypi:`pytest-talisker`
+     *last release*: Nov 28, 2021,
+     *status*: N/A,
+     *requires*: N/A
+
+
 
   :pypi:`pytest-tap`
      *last release*: Oct 27, 2021,
@@ -6735,9 +7027,9 @@ This list contains 943 plugins.
      Predictable and repeatable tempdir support.
 
   :pypi:`pytest-terraform`
-     *last release*: Apr 25, 2021,
+     *last release*: Nov 10, 2021,
      *status*: N/A,
-     *requires*: pytest (>=6.0,<7.0)
+     *requires*: pytest (>=6.0)
 
      A pytest plugin for using terraform fixtures
 
@@ -6770,9 +7062,9 @@ This list contains 943 plugins.
      A py.test plugin providing temporary directories in unit tests.
 
   :pypi:`pytest-testdox`
-     *last release*: Oct 13, 2020,
+     *last release*: Dec 05, 2021,
      *status*: 5 - Production/Stable,
-     *requires*: pytest (>=3.7.0)
+     *requires*: pytest (>=4.6.0)
 
      A testdox format reporter for pytest
 
@@ -6784,7 +7076,7 @@ This list contains 943 plugins.
      A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups.
 
   :pypi:`pytest-testinfra`
-     *last release*: Jun 20, 2021,
+     *last release*: Dec 07, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest (!=3.0.2)
 
@@ -6811,6 +7103,13 @@ This list contains 943 plugins.
 
      Plugin to use TestObject Suites with Pytest
 
+  :pypi:`pytest-testpluggy`
+     *last release*: Jan 07, 2022,
+     *status*: N/A,
+     *requires*: pytest
+
+     set your encoding
+
   :pypi:`pytest-testrail`
      *last release*: Aug 27, 2020,
      *status*: N/A,
@@ -6826,14 +7125,14 @@ This list contains 943 plugins.
      A small example package
 
   :pypi:`pytest-testrail-api`
-     *last release*: Jun 23, 2021,
+     *last release*: Dec 17, 2021,
      *status*: N/A,
      *requires*: pytest (>=5.5)
 
      Плагин Pytest, для интеграции с TestRail
 
   :pypi:`pytest-testrail-api-client`
-     *last release*: Oct 25, 2021,
+     *last release*: Dec 14, 2021,
      *status*: N/A,
      *requires*: pytest
 
@@ -6882,7 +7181,7 @@ This list contains 943 plugins.
 
 
   :pypi:`pytest-testreport`
-     *last release*: Jul 01, 2021,
+     *last release*: Nov 12, 2021,
      *status*: 4 - Beta,
      *requires*: pytest (>=3.5.0)
 
@@ -6902,8 +7201,15 @@ This list contains 943 plugins.
 
      Plugin for py.test to run relevant tests, based on naively checking if a test contains a reference to the symbol you supply
 
+  :pypi:`pytest-test-utils`
+     *last release*: Dec 14, 2021,
+     *status*: N/A,
+     *requires*: pytest (>=5)
+
+
+
   :pypi:`pytest-tesults`
-     *last release*: Jul 31, 2021,
+     *last release*: Dec 31, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest (>=3.5.0)
 
@@ -6945,7 +7251,7 @@ This list contains 943 plugins.
      A pytest plugin to time test function runs
 
   :pypi:`pytest-timeout`
-     *last release*: Oct 11, 2021,
+     *last release*: Dec 13, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest (>=5.0.0)
 
@@ -6972,8 +7278,15 @@ This list contains 943 plugins.
 
      Pytest plugin to add a timestamp prefix to the pytest output
 
+  :pypi:`pytest-timestamps`
+     *last release*: Jan 14, 2022,
+     *status*: N/A,
+     *requires*: pytest (>=5.2)
+
+     A simple plugin to view timestamps for each test
+
   :pypi:`pytest-tipsi-django`
-     *last release*: Oct 14, 2020,
+     *last release*: Nov 17, 2021,
      *status*: 4 - Beta,
      *requires*: pytest (>=6.0.0)
 
@@ -7001,7 +7314,7 @@ This list contains 943 plugins.
      Cloud Jira Test Management (TM4J) PyTest reporter plugin
 
   :pypi:`pytest-tmreport`
-     *last release*: Aug 16, 2021,
+     *last release*: Nov 17, 2021,
      *status*: N/A,
      *requires*: N/A
 
@@ -7071,7 +7384,7 @@ This list contains 943 plugins.
 
 
   :pypi:`pytest-translations`
-     *last release*: Mar 30, 2021,
+     *last release*: Nov 05, 2021,
      *status*: 5 - Production/Stable,
      *requires*: N/A
 
@@ -7134,7 +7447,7 @@ This list contains 943 plugins.
      A twisted plugin for pytest.
 
   :pypi:`pytest-typhoon-xray`
-     *last release*: Aug 27, 2021,
+     *last release*: Nov 03, 2021,
      *status*: 4 - Beta,
      *requires*: N/A
 
@@ -7197,9 +7510,9 @@ This list contains 943 plugins.
      pytest-upload-report is a plugin for pytest that upload your test report for test results.
 
   :pypi:`pytest-utils`
-     *last release*: Sep 22, 2021,
-     *status*: N/A,
-     *requires*: pytest
+     *last release*: Dec 04, 2021,
+     *status*: 4 - Beta,
+     *requires*: pytest (>=6.2.5,<7.0.0)
 
      Some helpers for pytest.
 
@@ -7337,7 +7650,7 @@ This list contains 943 plugins.
      Local continuous test runner with pytest and watchdog.
 
   :pypi:`pytest-watcher`
-     *last release*: Sep 18, 2021,
+     *last release*: Dec 30, 2021,
      *status*: 3 - Alpha,
      *requires*: N/A
 
@@ -7392,17 +7705,24 @@ This list contains 943 plugins.
 
      Windows tray notifications for py.test results.
 
+  :pypi:`pytest-with-docker`
+     *last release*: Nov 09, 2021,
+     *status*: N/A,
+     *requires*: pytest
+
+     pytest with docker helpers.
+
   :pypi:`pytest-workflow`
-     *last release*: Dec 14, 2020,
+     *last release*: Dec 03, 2021,
      *status*: 5 - Production/Stable,
      *requires*: pytest (>=5.4.0)
 
      A pytest plugin for configuring workflow/pipeline tests using YAML files
 
   :pypi:`pytest-xdist`
-     *last release*: Sep 21, 2021,
+     *last release*: Dec 10, 2021,
      *status*: 5 - Production/Stable,
-     *requires*: pytest (>=6.0.0)
+     *requires*: pytest (>=6.2.0)
 
      pytest xdist plugin for distributed testing and loop-on-failing modes
 
@@ -7421,7 +7741,7 @@ This list contains 943 plugins.
      forked from pytest-xdist
 
   :pypi:`pytest-xdist-tracker`
-     *last release*: May 05, 2021,
+     *last release*: Nov 18, 2021,
      *status*: 3 - Alpha,
      *requires*: pytest (>=3.5.1)
 
@@ -7554,9 +7874,9 @@ This list contains 943 plugins.
      OWASP ZAP plugin for py.test.
 
   :pypi:`pytest-zebrunner`
-     *last release*: Oct 19, 2021,
+     *last release*: Dec 02, 2021,
      *status*: 5 - Production/Stable,
-     *requires*: pytest (>=6.0.0,<7.0.0)
+     *requires*: pytest (>=4.5.0)
 
      Pytest connector for Zebrunner reporting
 
